@@ -94,6 +94,12 @@ class ClassicHeader extends RefreshIndicator {
 }
 
 class _ClassicHeaderState extends RefreshIndicatorState<ClassicHeader> {
+  @override
+  void onOffsetChange(double offset) {
+    // Subclasses can now use offsetNotifier for local animations
+    super.onOffsetChange(offset);
+  }
+
   Widget _buildText(mode) {
     RefreshString strings =
         RefreshLocalizations.of(context)?.currentLocalization ??

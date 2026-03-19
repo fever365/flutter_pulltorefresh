@@ -13,3 +13,4 @@ ios/Runner/GeneratedPluginRegistrant.*
 pubspec.lock
 .idea
 
+coverage

@@ -112,23 +112,25 @@ class _WaterDropHeaderState extends RefreshIndicatorState<WaterDropHeader>
           );
     } else if (mode == RefreshStatus.completed) {
       child = widget.complete ??
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              const Icon(
-                Icons.done,
-                color: Colors.grey,
-              ),
-              Container(
-                width: 15.0,
-              ),
-              Text(
-                (RefreshLocalizations.of(context)?.currentLocalization ??
-                        EnRefreshString())
-                    .refreshCompleteText!,
-                style: TextStyle(color: Colors.grey),
-              )
-            ],
+          FittedBox(
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                const Icon(
+                  Icons.done,
+                  color: Colors.grey,
+                ),
+                Container(
+                  width: 15.0,
+                ),
+                Text(
+                  (RefreshLocalizations.of(context)?.currentLocalization ??
+                          EnRefreshString())
+                      .refreshCompleteText!,
+                  style: TextStyle(color: Colors.grey),
+                )
+              ],
+            ),
           );
     } else if (mode == RefreshStatus.failed) {
       child = widget.failed ??

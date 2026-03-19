@@ -8,6 +8,7 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/physics.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter/foundation.dart';
+import 'dart:math' as math;
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 import 'package:pull_to_refresh/src/internals/slivers.dart';
 import 'internals/indicator_wrap.dart';
@@ -277,7 +278,7 @@ class SmartRefresher extends StatefulWidget {
 
 class SmartRefresherState extends State<SmartRefresher> {
   RefreshPhysics? _physics;
-  bool _updatePhysics = false;
+  bool _updatePhysics = true;
   double viewportExtent = 0;
   bool _canDrag = true;
 
@@ -353,10 +354,14 @@ class SmartRefresherState extends State<SmartRefresher> {
             updateFlag: _updatePhysics ? 0 : 1,
             enableScrollWhenRefreshCompleted:
                 conf?.enableScrollWhenRefreshCompleted ?? false,
+            enablePullDown: widget.enablePullDown,
+            enablePullUp: widget.enablePullUp,
             maxUnderScrollExtent: conf?.maxUnderScrollExtent ??
                 (isBouncingPhysics ? double.infinity : 0.0),
             maxOverScrollExtent: conf?.maxOverScrollExtent ??
-                (isBouncingPhysics ? double.infinity : 60.0),
+                (isBouncingPhysics
+                    ? double.infinity
+                    : math.max(60.0, conf?.headerTriggerDistance ?? 80.0)),
             topHitBoundary: conf?.topHitBoundary ??
                 (isBouncingPhysics
                     ? double.infinity
@@ -458,8 +463,17 @@ class SmartRefresherState extends State<SmartRefresher> {
 
   bool _ifNeedUpdatePhysics() {
     RefreshConfiguration? conf = RefreshConfiguration.of(context);
-    if (conf == null || _physics == null) {
-      return false;
+    if (_physics == null) {
+      return true;
+    }
+
+    if (conf == null) {
+      // If conf is null, we should check if _physics is using default values.
+      // But it's simpler to just return true if it wasn't null before.
+      // However, usually _physics is created using a RefreshConfiguration.
+      // Let's check if any of the fields differ from defaults if we want to be very precise.
+      // For now, if conf is null and _physics exists, it might need to revert to defaults.
+      return true;
     }
 
     if (conf.topHitBoundary != _physics!.topHitBoundary ||
@@ -644,7 +658,7 @@ class RefreshController {
   /// so for making it spring back, it should be trigger goBallistic make it spring back
   void _listenScrollEnd() {
     if (position != null && position!.outOfRange) {
-      position?.activity?.applyNewDimensions();
+      position?.activity?.delegate.goBallistic(0.0);
     }
   }
 

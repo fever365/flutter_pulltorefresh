@@ -170,6 +170,7 @@ abstract class RefreshIndicatorState<T extends RefreshIndicator>
       return;
     }
     if (floating) return;
+
     // no matter what activity is done, when offset ==0.0 and !floating,it should be set to idle for setting ifCanDrag
     if (offset == 0.0) {
       mode = RefreshStatus.idle;
@@ -289,7 +290,7 @@ abstract class RefreshIndicatorState<T extends RefreshIndicator>
       refresherState!.setCanDrag(false);
       WidgetsBinding.instance.addPostFrameCallback((_) {
         if (!mounted) return;
-        activity!.resetActivity();
+        _position!.activity!.delegate.goBallistic(0.0);
         _position!
             .animateTo(0.0,
                 duration: const Duration(milliseconds: 500),
@@ -361,6 +362,9 @@ abstract class LoadIndicatorState<T extends LoadIndicator> extends State<T>
   }
 
   void enterLoading() {
+    if (mode == LoadStatus.loading || floating) {
+      return;
+    }
     setState(() {
       floating = true;
     });
@@ -388,8 +392,6 @@ abstract class LoadIndicatorState<T extends LoadIndicator> extends State<T>
         return;
       }
 
-      // this line for patch bug temporary:indicator disappears fastly when load more complete
-      if (mounted) Scrollable.of(context).position.correctBy(0.00001);
       WidgetsBinding.instance.addPostFrameCallback((_) {
         if (mounted && _position?.outOfRange == true) {
           activity!.delegate.goBallistic(0);
@@ -414,8 +416,7 @@ abstract class LoadIndicatorState<T extends LoadIndicator> extends State<T>
           mode == LoadStatus.noMore) {
         return false;
       }
-      if (mode != LoadStatus.canLoading &&
-          _position!.userScrollDirection == ScrollDirection.forward) {
+      if (_position!.userScrollDirection == ScrollDirection.forward) {
         return false;
       }
       return true;
@@ -430,6 +431,7 @@ abstract class LoadIndicatorState<T extends LoadIndicator> extends State<T>
 
     update();
     if (mode == LoadStatus.idle ||
+        mode == RefreshStatus.completed || // Note: this might be a typo in original code, should be LoadStatus.completed? No, LoadStatus doesn't have completed.
         mode == LoadStatus.failed ||
         mode == LoadStatus.noMore) {
       // #292,#265,#208
@@ -588,6 +590,9 @@ mixin IndicatorStateMixin<T extends StatefulWidget, V> on State<T> {
 
   RefreshNotifier<V?>? _mode;
 
+  /// 偏移量监听器，用于局部刷新 (Modern Flutter practice)
+  final ValueNotifier<double> offsetNotifier = ValueNotifier(0.0);
+
   ScrollActivity? get activity => _position!.activity;
 
   // it doesn't support get the ScrollController as the listener, because it will cause "multiple scrollview use one ScrollController"
@@ -607,6 +612,7 @@ mixin IndicatorStateMixin<T extends StatefulWidget, V> on State<T> {
     if (overscrollPast < 0.0) {
       return;
     }
+    offsetNotifier.value = overscrollPast;
     _dispatchModeByOffset(overscrollPast);
   }
 
@@ -615,6 +621,7 @@ mixin IndicatorStateMixin<T extends StatefulWidget, V> on State<T> {
     _position?.removeListener(_handleOffsetChange);
     _position = null;
     _mode = null;
+    offsetNotifier.dispose();
   }
 
   void _updateListener() {

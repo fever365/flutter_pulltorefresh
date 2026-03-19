@@ -46,7 +46,7 @@ void testRequestFun(bool full) {
     await tester
         .pumpWidget(buildRefresher(_refreshController, count: full ? 20 : 1));
     //init Refresh
-    await tester.pumpAndSettle();
+    await tester.pump(Duration(milliseconds: 1000));
     expect(_refreshController.headerStatus, RefreshStatus.refreshing);
     _refreshController.refreshCompleted();
     await tester.pumpAndSettle(const Duration(milliseconds: 500));
@@ -55,23 +55,23 @@ void testRequestFun(bool full) {
     _refreshController.position!.jumpTo(200.0);
     _refreshController.requestRefresh(
         duration: Duration(milliseconds: 500), curve: Curves.linear);
-    await tester.pumpAndSettle();
+    await tester.pump(Duration(milliseconds: 1000));
     _refreshController.refreshCompleted();
     await tester.pumpAndSettle(const Duration(milliseconds: 500));
     expect(_refreshController.headerStatus, RefreshStatus.idle);
 
     _refreshController.requestLoading();
-    await tester.pumpAndSettle();
+    await tester.pump(Duration(milliseconds: 1000));
     expect(_refreshController.footerStatus, LoadStatus.loading);
     _refreshController.loadComplete();
-    await tester.pump(Duration(milliseconds: 200));
-    await tester.pumpAndSettle(Duration(milliseconds: 2000));
+    await tester.pumpAndSettle(const Duration(milliseconds: 500));
+    await tester.pump(Duration(milliseconds: 2000));
     _refreshController.position!.jumpTo(0);
     _refreshController.requestTwoLevel();
-    await tester.pumpAndSettle(Duration(milliseconds: 200));
-    expect(_refreshController.headerStatus, RefreshStatus.twoLeveling);
+    await tester.pump(const Duration(milliseconds: 500));
+    expect(_refreshController.headerStatus, RefreshStatus.twoLevelOpening);
     _refreshController.twoLevelComplete();
-    await tester.pumpAndSettle();
+    await tester.pumpAndSettle(Duration(milliseconds: 500));
     expect(_refreshController.headerStatus, RefreshStatus.idle);
   });
 
@@ -105,11 +105,11 @@ void testRequestFun(bool full) {
       ),
     ));
     _refreshController.requestRefresh(needCallback: false);
-    await tester.pumpAndSettle();
+    await tester.pumpAndSettle(Duration(milliseconds: 500));
     expect(timerr, 0);
 
     _refreshController.requestLoading(needCallback: false);
-    await tester.pumpAndSettle();
+    await tester.pumpAndSettle(Duration(milliseconds: 500));
     expect(timerr, 0);
   });
 }

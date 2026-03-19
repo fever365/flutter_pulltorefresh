@@ -49,16 +49,11 @@ class SliverRefresh extends SingleChildRenderObjectWidget {
   @override
   void updateRenderObject(
       BuildContext context, covariant RenderSliverRefresh renderObject) {
-    final RefreshStatus mode =
-        SmartRefresher.of(context)!.controller.headerMode!.value;
     renderObject
       ..refreshIndicatorLayoutExtent = refreshIndicatorLayoutExtent
       ..hasLayoutExtent = floating
       ..context = context
       ..refreshStyle = refreshStyle
-      ..updateFlag = mode == RefreshStatus.twoLevelOpening ||
-          mode == RefreshStatus.twoLeveling ||
-          mode == RefreshStatus.idle
       ..paintOffsetY = paintOffsetY;
   }
 }
@@ -149,7 +144,8 @@ class RenderSliverRefresh extends RenderSliverSingleBoxAdapter {
     }
   }
 
-  set updateFlag(u) {
+  set updateFlag(bool u) {
+    if (_updateFlag == u) return;
     _updateFlag = u;
     markNeedsLayout();
   }
@@ -182,7 +178,7 @@ class RenderSliverRefresh extends RenderSliverSingleBoxAdapter {
     if (_updateFlag) {
       // ignore_for_file: INVALID_USE_OF_PROTECTED_MEMBER
       // ignore_for_file: INVALID_USE_OF_VISIBLE_FOR_TESTING_MEMBER
-      Scrollable.of(context).position.activity!.applyNewDimensions();
+      Scrollable.of(context).position.activity?.delegate.goBallistic(0.0);
       _updateFlag = false;
     }
     // The new layout extent this sliver should now have.
@@ -384,15 +380,21 @@ class RenderSliverLoading extends RenderSliverSingleBoxAdapter {
   }
 
   bool _computeIfFull(SliverConstraints cons) {
-    final RenderViewport viewport = parent as RenderViewport;
+    RenderObject? current = parent;
+    while(current != null && current is! RenderViewport) {
+       current = current.parent as RenderObject?;
+    }
+    if (current == null) return false;
+    final RenderViewport viewport = current as RenderViewport;
+    
     RenderSliver? sliverP = viewport.firstChild;
     double totalScrollExtent = cons.precedingScrollExtent;
-    while (sliverP != this) {
+    while (sliverP != this && sliverP != null) {
       if (sliverP is RenderSliverRefresh) {
         totalScrollExtent -= sliverP.geometry!.scrollExtent;
         break;
       }
-      sliverP = viewport.childAfter(sliverP!);
+      sliverP = viewport.childAfter(sliverP);
     }
     // consider about footer layoutExtent,it should be subtracted it's height
     return totalScrollExtent > cons.viewportMainAxisExtent;
@@ -553,7 +555,7 @@ class RenderSliverRefreshBody extends RenderSliverSingleBoxAdapter {
         break;
     }
     final double paintedChildSize =
-        calculatePaintOffset(constraints, from: 0.0, to: childExtent);
+        calculatePaintOffset(constraints, from: 0.0, to: childExtent!);
     final double cacheExtent =
         calculateCacheOffset(constraints, from: 0.0, to: childExtent);
 

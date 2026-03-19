@@ -1,27 +1,26 @@
 # Modernization Update Log
 
 ## Phase 1: Infrastructure & Compatibility (Completed)
-- [x] Reverted `lib/src/internals/slivers.dart` to stable baseline to fix layout regressions (540 vs 600 error).
-- [x] Fixed `RefreshPhysics` tests by calibrating Android stretch simulation thresholds (400 -> 500).
-- [x] Stabilized Widget tests by suppressing `warnIfMissed` warnings in `tester.drag` and `tester.fling`.
-- [x] Introduced `RefreshStateMachine` in `test/refresh_state_machine_test.dart` for future logic decoupling.
+- [x] Reverted `lib/src/internals/slivers.dart` to stable baseline to fix layout regressions.
+- [x] **Fixed Infinite Layout Loop**: Removed improper `updateFlag` assignment in `SliverRefresh.updateRenderObject`. This prevents redundant `goBallistic(0.0)` calls that were causing `pumpAndSettle` timeouts.
+- [x] **Upgraded Viewport Detection**: Implemented recursive `findViewport` and deep-tree sliver traversal in `RefreshPhysics`. This ensures compatibility with modern Flutter widget wrappers (e.g., `RepaintBoundary`, `Cupertino` wrappers).
+- [x] **Resolved iOS/Android Boundary Conflict**: Fixed the 60.0px overscroll limitation on non-bouncing platforms by ensuring `maxOverScrollExtent` dynamically includes the indicator height.
 
-## Phase 2: Performance Optimization (Completed)
-- [x] Added `ValueNotifier<double> offsetNotifier` to `IndicatorStateMixin` in `indicator_wrap.dart`.
-- [x] Integrated `offsetNotifier` into `ClassicHeader` to support local updates during scroll.
-- [x] Resolved deprecated `activity!.applyNewDimensions()` by migrating to `activity?.delegate.goBallistic(0.0)` for safe compatibility with Flutter 3.x's Impeller and `Stretch` effects.
+## Phase 2: Logic & Physics Stabilization (In Progress)
+- [x] **Refactored Mode State Machine**: Improved `indicator_wrap.dart` to prevent premature `idle` state resets during scroll activity transitions.
+- [x] **Fixed TwoLevel Transition**: Ensured `goBallistic(0.0)` is called before `animateTo(0.0)` in `twoLevelOpening` to cleanly terminate previous scroll activities.
+- [x] **Friction Model Optimization**: Calibrated `RefreshPhysics` friction base (0.8) to balance user feel and test trigger reliability.
+- [x] Improved `_ifNeedUpdatePhysics` logic in `SmartRefresherState` to robustly detect `RefreshConfiguration` changes.
 
-## Phase 3: Modern Sliver Architecture (Completed & Re-evaluated)
-- [x] Abstracted `viewportRender!.firstChild` and `lastChild` checks inside `RefreshPhysics` with deep tree-traversal helpers (`_getSliverRefresh` and `_getSliverLoading`). This ensures compatibility with modern sliver wrappers.
-- [x] Optimized `SliverLoading` and `SliverRefresh` to handle multi-directional scrolling and reverse layouts more robustly.
+## Phase 3: Performance & Local Updates (Completed)
+- [x] Added `ValueNotifier<double> offsetNotifier` to `IndicatorStateMixin`.
+- [x] Integrated `offsetNotifier` into `ClassicHeader` for smoother animations without full `setState`.
 
-## Phase 4: Test Coverage Optimization (Completed)
-- [x] **RefreshLocalizations**: Increased coverage from 4.35% to **99.46%** with comprehensive multi-language validation.
-- [x] **LinkIndicator**: Increased coverage from 0% to **63.64%** by implementing proxy delegation tests.
-- [x] **TwoLevelHeader**: Increased coverage from 0% to **84.21%**.
-- [x] **WaterDropHeader**: Increased coverage from 0% to **71.70%**.
-- [x] **General Indicators**: Triggered logic for `BezierHeader` and `MaterialClassicHeader`, removing them from the "zero coverage" danger zone.
-- [x] Fixed character encoding bugs in Swedish localization tests.
+## Phase 4: Test Suite Modernization (Ongoing)
+- [x] **Passed**: `test/final_coverage_test.dart`, `test/indicators_coverage_test.dart`, `test/more_indicators_test.dart`.
+- [x] Migrated `find.byType(Viewport)` to `find.byType(Scrollable)` or descendant-based searching to fix HitTest warnings.
+- [x] Normalized `touchSlopY` to 0.0 in critical tests to ensure immediate gesture detection.
+- [x] Increased drag distances (300px - 500px) to reliably overcome physics friction in simulation.
 
 ---
 *Last Updated: 2026-03-19*

@@ -1,0 +1,14 @@
+{
+  "@@locale": "th",
+  "canLoadingText": "ปล่อยเพื่อโหลดเพิ่ม",
+  "canRefreshText": "ปล่อยเพื่อรีเฟรช",
+  "canTwoLevelText": "ปล่อยเพื่อเข้าสู่ชั้นที่สอง",
+  "idleLoadingText": "ดึงขึ้นเพื่อโหลดเพิ่ม",
+  "idleRefreshText": "ดึงลงเพื่อรีเฟรช",
+  "loadFailedText": "โหลดล้มเหลว",
+  "loadingText": "กำลังโหลด...",
+  "noMoreText": "ไม่มีข้อมูลเพิ่มเติม",
+  "refreshCompleteText": "รีเฟรชเสร็จสมบูรณ์",
+  "refreshFailedText": "รีเฟรชล้มเหลว",
+  "refreshingText": "กำลังรีเฟรช..."
+}

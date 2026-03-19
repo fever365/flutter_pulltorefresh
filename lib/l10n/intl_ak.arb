@@ -1,0 +1,14 @@
+{
+  "@@locale": "ak",
+  "canLoadingText": "Gyae mu na hyɛ mmoaase nneɛma a ɛwɔ mu",
+  "canRefreshText": "Gyae mu na yɛ foforo",
+  "canTwoLevelText": "Gyae mu na kɔ soro",
+  "idleLoadingText": "Twe kɔ soro na hyɛ mmoaase nneɛma a ɛwɔ mu",
+  "idleRefreshText": "Twe ba fam na yɛ foforo",
+  "loadFailedText": "Mmoaase nneɛma no ankɔ yiye",
+  "loadingText": "Ɛreyɛ foforo...",
+  "noMoreText": "Mmoaase nneɛma biara nni hɔ bio",
+  "refreshCompleteText": "Yɛ foforo no akɔ yiye",
+  "refreshFailedText": "Yɛ foforo no ankɔ yiye",
+  "refreshingText": "Ɛreyɛ foforo..."
+}

@@ -1,0 +1,14 @@
+{
+  "@@locale": "cs",
+  "canLoadingText": "Uvolněním spustíte načítání",
+  "canRefreshText": "Uvolněním spustíte aktualizaci",
+  "canTwoLevelText": "Uvolněním vstoupíte do druhé úrovně",
+  "idleLoadingText": "Tažením nahoru načtete více",
+  "idleRefreshText": "Tažením dolů aktualizujete",
+  "loadFailedText": "Načítání selhalo",
+  "loadingText": "Načítání…",
+  "noMoreText": "Žádná další data",
+  "refreshCompleteText": "Aktualizace dokončena",
+  "refreshFailedText": "Aktualizace selhala",
+  "refreshingText": "Aktualizace…"
+}

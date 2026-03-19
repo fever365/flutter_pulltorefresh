@@ -1,0 +1,14 @@
+{
+  "@@locale": "ee",
+  "canLoadingText": "Ɖee asi le eŋu ne wòatsɔ mɔnu bubuwo vɛ",
+  "canRefreshText": "Ɖee asi le eŋu ne wòawɔe yeye",
+  "canTwoLevelText": "Ɖee asi le eŋu ne wòayi level evelia",
+  "idleLoadingText": "He kɔ dzi ne wòatsɔ mɔnu bubuwo vɛ",
+  "idleRefreshText": "He va anyi ne wòawɔe yeye",
+  "loadFailedText": "Womekpɔ mɔnu bubuwo vɛ o",
+  "loadingText": "Ele tsɔtsɔm vɛ...",
+  "noMoreText": "Mɔnu bubu aɖeke megali o",
+  "refreshCompleteText": "Wɔwɔ yeye la wu enu",
+  "refreshFailedText": "Wɔwɔ yeye la mekpɔ dzidzedze o",
+  "refreshingText": "Ele wɔwɔm yeye..."
+}

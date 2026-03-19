@@ -1,0 +1,14 @@
+{
+  "@@locale": "ku",
+  "canLoadingText": "Berde ji bo bêtir barkirinê",
+  "canRefreshText": "Berde ji bo nûkirinê",
+  "canTwoLevelText": "Berde ji bo ketina qata duyem",
+  "idleLoadingText": "Bikişîne jor ji bo bêtir barkirinê",
+  "idleRefreshText": "Bikişîne jêr ji bo nûkirinê",
+  "loadFailedText": "Barkirin bi ser neket",
+  "loadingText": "Tê barkirin…",
+  "noMoreText": "Daneyên bêtir tune",
+  "refreshCompleteText": "Nûkirin qediya",
+  "refreshFailedText": "Nûkirin bi ser neket",
+  "refreshingText": "Tê nûkirin…"
+}

@@ -1,0 +1,14 @@
+{
+  "@@locale": "yi",
+  "canLoadingText": "מעלדונג צו לאָדן מער",
+  "canRefreshText": "מעלדונג צו דערפרישן",
+  "canTwoLevelText": "מעלדונג צו אַרייַן צווייטע שטאָק",
+  "idleLoadingText": "ציען אַרויף לאָדן מער",
+  "idleRefreshText": "ציען אַראָפּ דערפרישן",
+  "loadFailedText": "לאָדן דורכפאַל",
+  "loadingText": "לאָדן…",
+  "noMoreText": "ניט מער דאַטן",
+  "refreshCompleteText": "דערפרישן געענדיקט",
+  "refreshFailedText": "דערפרישן דורכפאַל",
+  "refreshingText": "דערפרישינג…"
+}

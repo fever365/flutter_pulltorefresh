@@ -1,0 +1,14 @@
+{
+  "@@locale": "mg",
+  "canLoadingText": "Alefaso mba hampidirana bebe kokoa",
+  "canRefreshText": "Alefaso mba hamelombelona",
+  "canTwoLevelText": "Alefaso mba hidirana amin'ny rihana faharoa",
+  "idleLoadingText": "Sintony miakatra mba hampidirana bebe kokoa",
+  "idleRefreshText": "Sintony midina mba hamelombelona",
+  "loadFailedText": "Tsy nahomby ny fampidirana",
+  "loadingText": "Mampiditra...",
+  "noMoreText": "Tsy misy angona intsony",
+  "refreshCompleteText": "Vita ny famelombelomana",
+  "refreshFailedText": "Tsy nahomby ny famelombelomana",
+  "refreshingText": "Mamelombelona..."
+}

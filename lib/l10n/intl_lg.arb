@@ -1,0 +1,14 @@
+{
+  "@@locale": "lg",
+  "canLoadingText": "Ta okulonda ebirala",
+  "canRefreshText": "Ta okuddamu okulaba",
+  "canTwoLevelText": "Ta okuyingira mu kalina ey'okubiri",
+  "idleLoadingText": "Sika waggulu okulonda ebirala",
+  "idleRefreshText": "Sika wansi okuddamu okulaba",
+  "loadFailedText": "Okulonda kulemye",
+  "loadingText": "Kulonda…",
+  "noMoreText": "Tewali data mulala",
+  "refreshCompleteText": "Kuddamu okulaba kuwedde",
+  "refreshFailedText": "Kuddamu okulaba kulemye",
+  "refreshingText": "Kuddamu okulaba…"
+}

@@ -1,0 +1,14 @@
+{
+  "@@locale": "ja",
+  "canLoadingText": "指を離して更に読み込む",
+  "canRefreshText": "指を離して更新",
+  "canTwoLevelText": "指を離して2段目を表示",
+  "idleLoadingText": "上方スワイプで更に読み込む",
+  "idleRefreshText": "下方スワイプでデータを更新",
+  "loadFailedText": "読み込みが失敗しました",
+  "loadingText": "読み込み中…",
+  "noMoreText": "データはありません",
+  "refreshCompleteText": "更新完了",
+  "refreshFailedText": "更新が失敗しました",
+  "refreshingText": "更新中…"
+}

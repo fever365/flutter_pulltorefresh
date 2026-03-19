@@ -1,0 +1,14 @@
+{
+  "@@locale": "jv",
+  "canLoadingText": "Culna kanggo amot liyane",
+  "canRefreshText": "Culna kanggo nyegerake",
+  "canTwoLevelText": "Culna kanggo mlebu lantai loro",
+  "idleLoadingText": "Tarik munggah kanggo amot liyane",
+  "idleRefreshText": "Tarik mudhun kanggo nyegerake",
+  "loadFailedText": "Gagal amot",
+  "loadingText": "Lagi amot…",
+  "noMoreText": "Ora ana data maneh",
+  "refreshCompleteText": "Selesai nyegerake",
+  "refreshFailedText": "Gagal nyegerake",
+  "refreshingText": "Lagi nyegerake…"
+}

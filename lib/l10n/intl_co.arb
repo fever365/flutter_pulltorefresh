@@ -1,0 +1,14 @@
+{
+  "@@locale": "co",
+  "canLoadingText": "Lascià per caricà più",
+  "canRefreshText": "Lascià per rinfrescà",
+  "canTwoLevelText": "Lascià per entre in u secondu livellu",
+  "idleLoadingText": "Trascinà in alto per caricà più",
+  "idleRefreshText": "Trascinà in bassu per rinfrescà",
+  "loadFailedText": "Caricamentu fallitu",
+  "loadingText": "Caricamentu…",
+  "noMoreText": "Ùn ci hè più dati",
+  "refreshCompleteText": "Rinfrescamentu finitu",
+  "refreshFailedText": "Rinfrescamentu fallitu",
+  "refreshingText": "Rinfrescamentu…"
+}

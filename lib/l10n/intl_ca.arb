@@ -1,0 +1,14 @@
+{
+  "@@locale": "ca",
+  "canLoadingText": "Deixeu anar per carregar més",
+  "canRefreshText": "Deixeu anar per refrescar",
+  "canTwoLevelText": "Deixeu anar per entrar al segon nivell",
+  "idleLoadingText": "Arrossegueu cap amunt per carregar més",
+  "idleRefreshText": "Arrossegueu cap avall per refrescar",
+  "loadFailedText": "Error en la càrrega",
+  "loadingText": "Carregant…",
+  "noMoreText": "No hi ha més dades",
+  "refreshCompleteText": "Refresc completat",
+  "refreshFailedText": "Error en el refresc",
+  "refreshingText": "Refrescant…"
+}

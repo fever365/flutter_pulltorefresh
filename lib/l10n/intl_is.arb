@@ -1,0 +1,14 @@
+{
+  "@@locale": "is",
+  "canLoadingText": "Slepptu til að hlaða meira",
+  "canRefreshText": "Slepptu til að endurhlaða",
+  "canTwoLevelText": "Slepptu til að fara á aðra hæð",
+  "idleLoadingText": "Dragðu upp til að hlaða meira",
+  "idleRefreshText": "Dragðu niður til að endurhlaða",
+  "loadFailedText": "Hleðsla mistókst",
+  "loadingText": "Hleður…",
+  "noMoreText": "Engin frekari gögn",
+  "refreshCompleteText": "Endurhleðslu lokið",
+  "refreshFailedText": "Endurhleðsla mistókst",
+  "refreshingText": "Endurhleður…"
+}

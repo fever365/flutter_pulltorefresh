@@ -1,0 +1,14 @@
+{
+  "@@locale": "ln",
+  "canLoadingText": "Tika mpo na kobakisa",
+  "canRefreshText": "Tika mpo na kobongola",
+  "canTwoLevelText": "Tika mpo na kokota na nivo ya mibale",
+  "idleLoadingText": "Benda mpo na kobakisa",
+  "idleRefreshText": "Benda mpo na kobongola",
+  "loadFailedText": "Kokota ekweyi",
+  "loadingText": "Ezo koba...",
+  "noMoreText": "Biloko mosusu ezali te",
+  "refreshCompleteText": "Kobongola esili",
+  "refreshFailedText": "Kobongola ekweyi",
+  "refreshingText": "Ezo bongola..."
+}

@@ -1,0 +1,14 @@
+{
+  "@@locale": "ky",
+  "canLoadingText": "Көбүрөөк жүктөө үчүн коё бериңиз",
+  "canRefreshText": "Жаңыртуу үчүн коё бериңиз",
+  "canTwoLevelText": "Экинчи деңгээлге өтүү үчүн коё бериңиз",
+  "idleLoadingText": "Көбүрөөк жүктөө үчүн өйдө тартыңыз",
+  "idleRefreshText": "Жаңыртуу үчүн ылдый тартыңыз",
+  "loadFailedText": "Жүктөө ишке ашкан жок",
+  "loadingText": "Жүктөлүүдө…",
+  "noMoreText": "Басқа маалымат жок",
+  "refreshCompleteText": "Жаңыртуу аяктады",
+  "refreshFailedText": "Жаңыртуу ишке ашкан жок",
+  "refreshingText": "Жаңыртылууда…"
+}

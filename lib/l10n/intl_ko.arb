@@ -1,0 +1,14 @@
+{
+  "@@locale": "ko",
+  "canLoadingText": "당겨서 불러오기",
+  "canRefreshText": "당겨서 새로 고침",
+  "canTwoLevelText": "두 번째 레벨로 이동",
+  "idleLoadingText": "위로 당겨서 불러오기",
+  "idleRefreshText": "아래로 당겨서 새로 고침",
+  "loadFailedText": "로딩에 실패했습니다.",
+  "loadingText": "로딩 중…",
+  "noMoreText": "데이터가 더 이상 없습니다.",
+  "refreshCompleteText": "새로 고침 완료",
+  "refreshFailedText": "새로 고침에 실패했습니다.",
+  "refreshingText": "새로 고침 중…"
+}

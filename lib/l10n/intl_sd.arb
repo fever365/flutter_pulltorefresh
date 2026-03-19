@@ -1,0 +1,14 @@
+{
+  "@@locale": "sd",
+  "canLoadingText": "وڌيڪ لوڊ ڪرڻ لاءِ ڇڏيو",
+  "canRefreshText": "تازو ڪرڻ لاءِ ڇڏيو",
+  "canTwoLevelText": "ٻئي منزل تي وڃڻ لاءِ ڇڏيو",
+  "idleLoadingText": "وڌيڪ لوڊ ڪرڻ لاءِ مٿي ڇڪيو",
+  "idleRefreshText": "تازو ڪرڻ لاءِ هيٺ ڇڪيو",
+  "loadFailedText": "لوڊ ناڪام ٿيو",
+  "loadingText": "لوڊ ٿي رهيو آهي...",
+  "noMoreText": "وڌيڪ ڊيٽا ناهي",
+  "refreshCompleteText": "تازو ٿي ويو",
+  "refreshFailedText": "تازو ڪرڻ ناڪام ٿيو",
+  "refreshingText": "تازو ٿي رهيو آهي..."
+}

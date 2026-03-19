@@ -1,0 +1,14 @@
+{
+  "@@locale": "be",
+  "canLoadingText": "Адпусціце, каб загрузіць больш",
+  "canRefreshText": "Адпусціце, каб абнавіць",
+  "canTwoLevelText": "Адпусціце, каб перайсці на другі ўзровень",
+  "idleLoadingText": "Пацягніце ўверх, каб загрузіць больш",
+  "idleRefreshText": "Пацягніце ўніз, каб абнавіць",
+  "loadFailedText": "Памылка загрузкі",
+  "loadingText": "Загрузка…",
+  "noMoreText": "Дадзеных больш няма",
+  "refreshCompleteText": "Абнаўленне завершана",
+  "refreshFailedText": "Памылка абнаўлення",
+  "refreshingText": "Абнаўленне…"
+}

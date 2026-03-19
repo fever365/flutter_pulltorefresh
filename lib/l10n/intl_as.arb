@@ -1,0 +1,14 @@
+{
+  "@@locale": "as",
+  "canLoadingText": "লোডিং আৰম্ভ কৰিবলৈ এৰি দিয়ক",
+  "canRefreshText": "ৰিফ্ৰেছ আৰম্ভ কৰিবলৈ এৰি দিয়ক",
+  "canTwoLevelText": "দ্বিতীয় স্তৰত সোমাবলৈ এৰি দিয়ক",
+  "idleLoadingText": "লোডিং কৰিবলৈ ওপৰলৈ টানক",
+  "idleRefreshText": "ৰিফ্ৰেছ কৰিবলৈ তললৈ টানক",
+  "loadFailedText": "লোড ব্যৰ্থ হৈছে",
+  "loadingText": "লোডিং হৈ আছে...",
+  "noMoreText": "আৰু তথ্য নাই",
+  "refreshCompleteText": "ৰিফ্ৰেছ সম্পূৰ্ণ হৈছে",
+  "refreshFailedText": "ৰিফ্ৰেছ ব্যৰ্থ হৈছে",
+  "refreshingText": "ৰিফ্ৰেছ হৈ আছে..."
+}

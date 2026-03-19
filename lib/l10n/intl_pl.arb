@@ -1,0 +1,14 @@
+{
+  "@@locale": "pl",
+  "canLoadingText": "Puść, aby załadować więcej",
+  "canRefreshText": "Puść, aby odświeżyć",
+  "canTwoLevelText": "Puść, aby przejść do drugiego poziomu",
+  "idleLoadingText": "Przeciągnij w górę, aby załadować",
+  "idleRefreshText": "Przeciągnij w dół, aby odświeżyć",
+  "loadFailedText": "Błąd ładowania",
+  "loadingText": "Ładowanie...",
+  "noMoreText": "Brak więcej danych",
+  "refreshCompleteText": "Odświeżanie zakończone",
+  "refreshFailedText": "Odświeżanie nie powiodło się",
+  "refreshingText": "Odświeżanie..."
+}

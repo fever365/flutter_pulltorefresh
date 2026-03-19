@@ -1,0 +1,14 @@
+{
+  "@@locale": "gn",
+  "canLoadingText": "Pohe ehenondeve",
+  "canRefreshText": "Pohe embopyahu",
+  "canTwoLevelText": "Pohe oike haguã mokõiha yvate",
+  "idleLoadingText": "Embogue yvate embohetave haguã",
+  "idleRefreshText": "Embogue yvy embohetave haguã",
+  "loadFailedText": "He’ã ehenonde",
+  "loadingText": "Oñehenonde…",
+  "noMoreText": "Ndaiporivéima mba’ekuaarã",
+  "refreshCompleteText": "Oñembopyahupa",
+  "refreshFailedText": "He’ã embopyahu",
+  "refreshingText": "Oñembopyahu…"
+}

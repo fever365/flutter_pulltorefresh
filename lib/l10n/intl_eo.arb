@@ -1,0 +1,14 @@
+{
+  "@@locale": "eo",
+  "canLoadingText": "Malfiksi por ŝargi pli",
+  "canRefreshText": "Malfiksi por refreŝigi",
+  "canTwoLevelText": "Malfiksi por eniri duan nivelon",
+  "idleLoadingText": "Tiri supren por ŝargi pli",
+  "idleRefreshText": "Tiri malsupren por refreŝigi",
+  "loadFailedText": "Ŝargado malsukcesis",
+  "loadingText": "Ŝargado…",
+  "noMoreText": "Neniu pluaj datumoj",
+  "refreshCompleteText": "Refreŝigo finita",
+  "refreshFailedText": "Refreŝigo malsukcesis",
+  "refreshingText": "Refreŝigo…"
+}

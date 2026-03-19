@@ -1,0 +1,14 @@
+{
+  "@@locale": "vi",
+  "canLoadingText": "Thả ra để tải thêm",
+  "canRefreshText": "Thả ra để làm mới",
+  "canTwoLevelText": "Thả ra để vào tầng hai",
+  "idleLoadingText": "Kéo lên để tải thêm",
+  "idleRefreshText": "Kéo xuống để làm mới",
+  "loadFailedText": "Tải xuống thất bại",
+  "loadingText": "Đang tải...",
+  "noMoreText": "Không còn dữ liệu",
+  "refreshCompleteText": "Làm mới thành công",
+  "refreshFailedText": "Làm mới thất bại",
+  "refreshingText": "Đang làm mới..."
+}

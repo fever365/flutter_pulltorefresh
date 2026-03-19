@@ -1,0 +1,14 @@
+{
+  "@@locale": "ha",
+  "canLoadingText": "Saki don ɗora ƙarin",
+  "canRefreshText": "Saki don sabuntawa",
+  "canTwoLevelText": "Saki don shiga mataki na biyu",
+  "idleLoadingText": "Jawo sama don ɗora ƙarin",
+  "idleRefreshText": "Jawo ƙasa don sabuntawa",
+  "loadFailedText": "An kasa ɗora",
+  "loadingText": "Ana ɗora…",
+  "noMoreText": "Babu ƙarin bayanai",
+  "refreshCompleteText": "An gama sabuntawa",
+  "refreshFailedText": "An kasa sabuntawa",
+  "refreshingText": "Ana sabuntawa…"
+}

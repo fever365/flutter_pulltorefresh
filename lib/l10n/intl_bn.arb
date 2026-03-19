@@ -1,0 +1,14 @@
+{
+  "@@locale": "bn",
+  "canLoadingText": "আরও লোড করার জন্য ছেড়ে দিন",
+  "canRefreshText": "রিফ্রেশ করার জন্য ছেড়ে দিন",
+  "canTwoLevelText": "দ্বিতীয় স্তরে প্রবেশ করতে ছেড়ে দিন",
+  "idleLoadingText": "আরও লোড করতে উপরে টানুন",
+  "idleRefreshText": "রিফ্রেশ করতে নিচে টানুন",
+  "loadFailedText": "লোড ব্যর্থ হয়েছে",
+  "loadingText": "লোড হচ্ছে…",
+  "noMoreText": "আর কোনো তথ্য নেই",
+  "refreshCompleteText": "রিফ্রেশ সম্পন্ন হয়েছে",
+  "refreshFailedText": "রিফ্রেশ ব্যর্থ হয়েছে",
+  "refreshingText": "রিফ্রেশ হচ্ছে…"
+}

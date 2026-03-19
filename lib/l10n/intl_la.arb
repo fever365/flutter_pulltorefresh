@@ -1,0 +1,14 @@
+{
+  "@@locale": "la",
+  "canLoadingText": "Mitte ad plura tollenda",
+  "canRefreshText": "Mitte ad renovandum",
+  "canTwoLevelText": "Mitte ad secundum tabulatum intrandum",
+  "idleLoadingText": "Trahe sursum ad plura tollenda",
+  "idleRefreshText": "Trahe deorsum ad renovandum",
+  "loadFailedText": "Tollere defecit",
+  "loadingText": "Tollens…",
+  "noMoreText": "Nihil amplius datorum",
+  "refreshCompleteText": "Renovatio perfecta",
+  "refreshFailedText": "Renovatio defecit",
+  "refreshingText": "Renovans…"
+}

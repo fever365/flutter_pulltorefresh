@@ -1,0 +1,14 @@
+{
+  "@@locale": "ug",
+  "canLoadingText": "تېخىمۇ كۆپ يۈكلەش ئۈچۈن قويۇۋېتىڭ",
+  "canRefreshText": "يېڭىلاش ئۈچۈن قويۇۋېتىڭ",
+  "canTwoLevelText": "ئىككىنچى قەۋەتكە كىرىش ئۈچۈن قويۇۋېتىڭ",
+  "idleLoadingText": "تېخىمۇ كۆپ يۈكلەش ئۈچۈن يۇقىرىغا تارتىڭ",
+  "idleRefreshText": "يېڭىلاش ئۈچۈن تۆۋەنگە تارتىڭ",
+  "loadFailedText": "يۈكلەش مەغلۇپ بولدى",
+  "loadingText": "يۈكلىنىۋاتىدۇ…",
+  "noMoreText": "باشقا سانلىق مەلۇمات يوق",
+  "refreshCompleteText": "يېڭىلاش تاماملاندى",
+  "refreshFailedText": "يېڭىلاش مەغلۇپ بولدى",
+  "refreshingText": "يېڭىلىنىۋاتىدۇ…"
+}

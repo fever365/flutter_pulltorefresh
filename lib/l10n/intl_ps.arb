@@ -1,0 +1,14 @@
+{
+  "@@locale": "ps",
+  "canLoadingText": "د نورو پورته کولو لپاره خوشې کړئ",
+  "canRefreshText": "د تازه کولو لپاره خوشې کړئ",
+  "canTwoLevelText": "دوهم پوړ ته د ننوتلو لپاره خوشې کړئ",
+  "idleLoadingText": "د نورو پورته کولو لپاره پورته کش کړئ",
+  "idleRefreshText": "د تازه کولو لپاره لاندې کش کړئ",
+  "loadFailedText": "پورته کول ناکام شول",
+  "loadingText": "د پورته کولو په حال کې...",
+  "noMoreText": "نور معلومات نشته",
+  "refreshCompleteText": "تازه کول بشپړ شول",
+  "refreshFailedText": "تازه کول ناکام شول",
+  "refreshingText": "د تازه کولو په حال کې..."
+}

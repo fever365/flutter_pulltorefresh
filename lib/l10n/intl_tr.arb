@@ -1,0 +1,14 @@
+{
+  "@@locale": "tr",
+  "canLoadingText": "Daha fazlası için bırakın",
+  "canRefreshText": "Yenilemek için bırakın",
+  "canTwoLevelText": "İkinci kata girmek için bırakın",
+  "idleLoadingText": "Daha fazla veri için yukarı kaydırın",
+  "idleRefreshText": "Yenilemek için aşağı kaydırın",
+  "loadFailedText": "Yükleme başarısız",
+  "loadingText": "Yükleniyor...",
+  "noMoreText": "Daha fazla veri yok",
+  "refreshCompleteText": "Yenileme tamamlandı",
+  "refreshFailedText": "Yenileme başarısız",
+  "refreshingText": "Yenileniyor..."
+}

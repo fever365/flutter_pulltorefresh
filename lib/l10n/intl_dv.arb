@@ -1,0 +1,14 @@
+{
+  "@@locale": "dv",
+  "canLoadingText": "ލޯޑް ކުރުމަށް ދޫކޮށްލާ",
+  "canRefreshText": "ރިފްރެޝް ކުރުމަށް ދޫކޮށްލާ",
+  "canTwoLevelText": "ދެވަނަ ލެވެލްއަށް ވަނުމަށް ދޫކޮށްލާ",
+  "idleLoadingText": "އިތުރަށް ލޯޑް ކުރުމަށް މައްޗަށް ދަމާލާ",
+  "idleRefreshText": "ރިފްރެޝް ކުރުމަށް ތިރިއަށް ދަމާލާ",
+  "loadFailedText": "ލޯޑް ކުރެވޭގޮތެއް ނުވި",
+  "loadingText": "ލޯޑް ކުރަނީ…",
+  "noMoreText": "އިތުރު މައުލޫމާތެއް ނެތް",
+  "refreshCompleteText": "ރިފްރެޝް ކުރެވިއްજެ",
+  "refreshFailedText": "ރިފްރެޝް ކުރެވޭގޮތެއް ނުވި",
+  "refreshingText": "ރިފްރެޝް ކުރަނީ…"
+}

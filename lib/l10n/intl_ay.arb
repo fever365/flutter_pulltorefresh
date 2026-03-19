@@ -1,0 +1,14 @@
+{
+  "@@locale": "ay",
+  "canLoadingText": "Apt'añataki jaytjaña",
+  "canRefreshText": "Machaqataki jaytjaña",
+  "canTwoLevelText": "Paya t'aqaru mantañataki jaytjaña",
+  "idleLoadingText": "Alayaru jaqt'aña apt'añataki",
+  "idleRefreshText": "Ainacharu jaqt'aña machaqataki",
+  "loadFailedText": "Janiwa apt'askiti",
+  "loadingText": "Apt'askkiwa...",
+  "noMoreText": "Janiwa yaqha yatiyawinaka utjkiti",
+  "refreshCompleteText": "Machaqata lurt'atawa",
+  "refreshFailedText": "Janiwa machaqat lurt'askiti",
+  "refreshingText": "Machaqat lurt'askkiwa..."
+}

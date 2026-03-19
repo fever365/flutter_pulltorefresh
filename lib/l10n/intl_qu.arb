@@ -1,0 +1,14 @@
+{
+  "@@locale": "qu",
+  "canLoadingText": "Kachariy aswan qallarinapaq",
+  "canRefreshText": "Kachariy musuqyachinapaq",
+  "canTwoLevelText": "Kachariy iskay ñiqi pataman yaykunapaq",
+  "idleLoadingText": "Wichayman chutay aswan qallarinapaq",
+  "idleRefreshText": "Urayman chutay musuqyachinapaq",
+  "loadFailedText": "Mana qallariyta atikunchu",
+  "loadingText": "Qallarichkan...",
+  "noMoreText": "Mana kanchu aswan willaykuna",
+  "refreshCompleteText": "Musuqyachiy tukusqa",
+  "refreshFailedText": "Mana musuqyachiyta atikunchu",
+  "refreshingText": "Musuqyachichkan..."
+}

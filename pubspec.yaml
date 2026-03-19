@@ -1,6 +1,6 @@
 name: pull_to_refresh
 description: a widget provided to the flutter scroll component drop-down refresh and pull up load.
-version: 2.1.0
+version: 2.2.0
 homepage: https://github.com/peng8350/flutter_pulltorefresh
 
 environment:
@@ -10,6 +10,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +19,4 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  generate: true

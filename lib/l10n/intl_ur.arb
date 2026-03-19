@@ -1,0 +1,14 @@
+{
+  "@@locale": "ur",
+  "canLoadingText": "مزید لوڈ کرنے کے لیے چھوڑ دیں",
+  "canRefreshText": "ریفریش کرنے کے لیے چھوڑ دیں",
+  "canTwoLevelText": "دوسری منزل میں داخل ہونے کے لیے چھوڑ دیں",
+  "idleLoadingText": "اوپر کھینچیں مزید لوڈ کریں",
+  "idleRefreshText": "نیچے کھینچیں ریفریش کریں",
+  "loadFailedText": "لوڈنگ ناکام ہو گئی",
+  "loadingText": "لوڈ ہو رہا ہے…",
+  "noMoreText": "مزید ڈیٹا نہیں ہے",
+  "refreshCompleteText": "ریفریش مکمل ہو گیا",
+  "refreshFailedText": "ریفریش ناکام ہو گیا",
+  "refreshingText": "ریفریش ہو رہا ہے…"
+}

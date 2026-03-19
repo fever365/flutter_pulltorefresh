@@ -1,0 +1,14 @@
+{
+  "@@locale": "it",
+  "canLoadingText": "Rilascia per caricare altro",
+  "canRefreshText": "Rilascia per aggiornare",
+  "canTwoLevelText": "Rilascia per accedere a secondfloor",
+  "idleLoadingText": "Tira per caricare altro",
+  "idleRefreshText": "Tira giù per aggiornare",
+  "loadFailedText": "Caricamento fallito",
+  "loadingText": "Caricamento…",
+  "noMoreText": "Nessun altro elemento",
+  "refreshCompleteText": "Aggiornamento completato",
+  "refreshFailedText": "Aggiornamento fallito",
+  "refreshingText": "Aggiornamento…"
+}

@@ -1,0 +1,14 @@
+{
+  "@@locale": "tl",
+  "canLoadingText": "Bitawan para mag-load pa",
+  "canRefreshText": "Bitawan para mag-refresh",
+  "canTwoLevelText": "Bitawan para pumasok sa ikalawang antas",
+  "idleLoadingText": "Hilahin pataas para mag-load pa",
+  "idleRefreshText": "Hilahin pababa para mag-refresh",
+  "loadFailedText": "Bigo ang pag-load",
+  "loadingText": "Naglo-load…",
+  "noMoreText": "Wala nang data",
+  "refreshCompleteText": "Tapos na ang pag-refresh",
+  "refreshFailedText": "Bigo ang pag-refresh",
+  "refreshingText": "Nagre-refresh…"
+}

@@ -1,0 +1,14 @@
+{
+  "@@locale": "eu",
+  "canLoadingText": "Askatu gehiago kargatzeko",
+  "canRefreshText": "Askatu freskatzeko",
+  "canTwoLevelText": "Askatu bigarren mailan sartzeko",
+  "idleLoadingText": "Gehiago kargatzeko tira gora",
+  "idleRefreshText": "Freskatzeko tira behera",
+  "loadFailedText": "Kargak huts egin du",
+  "loadingText": "Kargatzen…",
+  "noMoreText": "Ez dago datu gehiagorik",
+  "refreshCompleteText": "Freskatzea burutu da",
+  "refreshFailedText": "Freskatzeak huts egin du",
+  "refreshingText": "Freskatzen…"
+}

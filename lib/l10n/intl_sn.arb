@@ -1,0 +1,14 @@
+{
+  "@@locale": "sn",
+  "canLoadingText": "Regedza kuti uvhure zvimwe",
+  "canRefreshText": "Regedza kuti uvandudze",
+  "canTwoLevelText": "Regedza kuti upinde pauriri hwechipiri",
+  "idleLoadingText": "Dhonza uchienda kumusoro kuti uvhure zvimwe",
+  "idleRefreshText": "Dhonza uchienda pasi kuti uvandudze",
+  "loadFailedText": "Kutadza kuvhura",
+  "loadingText": "Kuri kuvhurwa...",
+  "noMoreText": "Hapasisina zvimwe",
+  "refreshCompleteText": "Kuvandudza kwapera",
+  "refreshFailedText": "Kuvandudza kwatadza",
+  "refreshingText": "Kuri kuvandudzwa..."
+}

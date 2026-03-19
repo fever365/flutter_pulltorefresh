@@ -1,0 +1,14 @@
+{
+  "@@locale": "si",
+  "canLoadingText": "තවදුරටත් පූරණය කිරීමට මුදා හරින්න",
+  "canRefreshText": "අලුත් කිරීමට මුදා හරින්න",
+  "canTwoLevelText": "දෙවන මහලට ඇතුළු වීමට මුදා හරින්න",
+  "idleLoadingText": "තවදුරටත් පූරණය කිරීමට ඉහළට අදින්න",
+  "idleRefreshText": "අලුත් කිරීමට පහළට අදින්න",
+  "loadFailedText": "පූරණය අසාර්ථකයි",
+  "loadingText": "පූරණය වෙමින් පවතී...",
+  "noMoreText": "තවත් දත්ත නොමැත",
+  "refreshCompleteText": "අලුත් කිරීම අවසන්",
+  "refreshFailedText": "අලුත් කිරීම අසාර්ථකයි",
+  "refreshingText": "අලුත් වෙමින් පවතී..."
+}

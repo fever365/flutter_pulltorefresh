@@ -1,0 +1,14 @@
+{
+  "@@locale": "sa",
+  "canLoadingText": "अधिकं भारयितुं त्यजतु",
+  "canRefreshText": "नवीकरणाय त्यजतु",
+  "canTwoLevelText": "द्वितीयतलं प्रवेष्टुं त्यजतु",
+  "idleLoadingText": "अधिकं भारयितुं उपरि कर्षतु",
+  "idleRefreshText": "नवीकरणाय अधः कर्षतु",
+  "loadFailedText": "भारणं विफलम्",
+  "loadingText": "भारयन् अस्ति...",
+  "noMoreText": "अधिकं तथ्यं नास्ति",
+  "refreshCompleteText": "नवीकरणं पूर्णम्",
+  "refreshFailedText": "नवीकरणं विफलम्",
+  "refreshingText": "नवीकुर्वन् अस्ति..."
+}

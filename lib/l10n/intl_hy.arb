@@ -1,0 +1,14 @@
+{
+  "@@locale": "hy",
+  "canLoadingText": "Բաց թողեք ավելին բեռնելու համար",
+  "canRefreshText": "Բաց թողեք թարմացնելու համար",
+  "canTwoLevelText": "Բաց թողեք երկրորդ մակարդակ մտնելու համար",
+  "idleLoadingText": "Քաշեք վերև ավելին բեռնելու համար",
+  "idleRefreshText": "Քաշեք ներքև թարմացնելու համար",
+  "loadFailedText": "Բեռնումը ձախողվեց",
+  "loadingText": "Բեռնվում է…",
+  "noMoreText": "Այլևս տվյալներ չկան",
+  "refreshCompleteText": "Թարմացումը ավարտվեց",
+  "refreshFailedText": "Թարմացումը ձախողվեց",
+  "refreshingText": "Թարմացվում է…"
+}

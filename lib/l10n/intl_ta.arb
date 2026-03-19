@@ -1,0 +1,14 @@
+{
+  "@@locale": "ta",
+  "canLoadingText": "மேலும் ஏற்ற விடுவிக்கவும்",
+  "canRefreshText": "புதுப்பிக்க விடுவிக்கவும்",
+  "canTwoLevelText": "இரண்டாம் நிலைக்குச் செல்ல விடுவிக்கவும்",
+  "idleLoadingText": "மேலும் ஏற்ற மேலே இழுக்கவும்",
+  "idleRefreshText": "புதுப்பிக்க கீழே இழுக்கவும்",
+  "loadFailedText": "ஏற்றம் தோல்வியடைந்தது",
+  "loadingText": "ஏற்றப்படுகிறது…",
+  "noMoreText": "மேலும் தரவு இல்லை",
+  "refreshCompleteText": "புதுப்பித்தல் முடிந்தது",
+  "refreshFailedText": "புதுப்பித்தல் தோல்வியடைந்தது",
+  "refreshingText": "புதுப்பிக்கப்படுகிறது…"
+}

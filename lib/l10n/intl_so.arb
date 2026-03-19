@@ -1,0 +1,14 @@
+{
+  "@@locale": "so",
+  "canLoadingText": "Sleas si aad u rarto wax badan",
+  "canRefreshText": "Sleas si aad u cusboonaysiiso",
+  "canTwoLevelText": "Sleas si aad u gasho dabaqa labaad",
+  "idleLoadingText": "Kala soo bax si aad wax badan u rarto",
+  "idleRefreshText": "Kala soo bax si aad u cusboonaysiiso",
+  "loadFailedText": "Rarka ayaa fashilmay",
+  "loadingText": "Wuu rarayaa…",
+  "noMoreText": "Ma jiraan xog kale",
+  "refreshCompleteText": "Cusboonaysiinta waa dhammaatay",
+  "refreshFailedText": "Cusboonaysiinta ayaa fashilantay",
+  "refreshingText": "Wuu cusboonaysiinayaa…"
+}

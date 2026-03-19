@@ -1,77 +1,82 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:pull_to_refresh/pull_to_refresh.dart';
+import 'package:pull_to_refresh/src/internals/refresh_localizations.dart';
+import 'package:pull_to_refresh/src/internals/slivers.dart';
+import 'package:pull_to_refresh/l10n/main_local.dart';
 
 void main() {
-  group('RefreshLocalizations Tests', () {
-    testWidgets('Should provide correct strings for supported locales via Localizations widget', (WidgetTester tester) async {
-      late RefreshString zhStrings;
-      late RefreshString enStrings;
+  group('RefreshLocalizations Tests (AppLocalizationsPulltorefresh)', () {
+    testWidgets('Should provide correct strings via Localizations widget', (WidgetTester tester) async {
+      late AppLocalizationsPulltorefresh zhStrings;
+      late AppLocalizationsPulltorefresh enStrings;
 
       await tester.pumpWidget(
         MaterialApp(
-          localizationsDelegates: const [
-            RefreshLocalizations.delegate,
-          ],
-          supportedLocales: const [
-            Locale('zh'),
-            Locale('en'),
-          ],
+          localizationsDelegates: AppLocalizationsPulltorefresh.localizationsDelegates,
+          supportedLocales: AppLocalizationsPulltorefresh.supportedLocales,
+          locale: const Locale('zh'),
           home: Builder(
             builder: (context) {
-              // We can't easily change the locale of the same app in one pump and get different instances of RefreshLocalizations.of(context)
-              // because it depend on the current locale of the context.
-              // So we just check if it returns something.
+              zhStrings = AppLocalizationsPulltorefresh.of(context)!;
               return Container();
             },
           ),
         ),
       );
-
-      // 直接通过 values 映射测试
-      zhStrings = RefreshLocalizations.values['zh']!;
-      enStrings = RefreshLocalizations.values['en']!;
-
+      await tester.pump();
       expect(zhStrings.idleRefreshText, "下拉刷新");
+
+      // Test with English
+      await tester.pumpWidget(
+        MaterialApp(
+          localizationsDelegates: AppLocalizationsPulltorefresh.localizationsDelegates,
+          supportedLocales: AppLocalizationsPulltorefresh.supportedLocales,
+          locale: const Locale('en'),
+          home: Builder(
+            builder: (context) {
+              enStrings = AppLocalizationsPulltorefresh.of(context)!;
+              return Container();
+            },
+          ),
+        ),
+      );
+      await tester.pump();
       expect(enStrings.idleRefreshText, "Pull down Refresh");
     });
 
-    test('isSupported should return true for valid locales', () {
-      const delegate = RefreshLocalizationsDelegate();
+    test('isSupported should return true for all generated locales', () {
+      const delegate = AppLocalizationsPulltorefresh.delegate;
       expect(delegate.isSupported(const Locale('zh')), true);
       expect(delegate.isSupported(const Locale('en')), true);
+      expect(delegate.isSupported(const Locale('fr')), true);
+      expect(delegate.isSupported(const Locale('ja')), true);
+      expect(delegate.isSupported(const Locale('eo')), true); // New language!
       expect(delegate.isSupported(const Locale('unknown')), false);
     });
 
-    test('currentLocalization should fallback to English', () {
-      final loc = RefreshLocalizations(const Locale('fr'));
-      expect(loc.currentLocalization, isA<FrRefreshString>());
-      
-      final locUnknown = RefreshLocalizations(const Locale('xy'));
-      expect(locUnknown.currentLocalization, isA<EnRefreshString>());
+    group('Spot check individual languages via lookup', () {
+      test('Chinese (zh)', () => _checkLookup(const Locale('zh'), "下拉刷新"));
+      test('English (en)', () => _checkLookup(const Locale('en'), "Pull down Refresh"));
+      test('French (fr)', () => _checkLookup(const Locale('fr'), "Tirez pour rafraîchir"));
+      test('Russian (ru)', () => _checkLookup(const Locale('ru'), "Тянуть вниз, чтобы обновить"));
+      test('Japanese (ja)', () => _checkLookup(const Locale('ja'), "下方スワイプでデータを更新"));
+      test('Esperanto (eo)', () => _checkLookup(const Locale('eo'), "Tiri malsupren por refreŝigi"));
     });
-
-    group('All individual strings check for coverage', () {
-      test('Chinese', () => _checkStrings(const ChRefreshString(), "下拉刷新"));
-      test('English', () => _checkStrings(const EnRefreshString(), "Pull down Refresh"));
-      test('French', () => _checkStrings(const FrRefreshString(), "Tirez pour rafraîchir"));
-      test('Russian', () => _checkStrings(const RuRefreshString(), "Тянуть вниз, чтобы обновить"));
-      test('Ukrainian', () => _checkStrings(const UkRefreshString(), "Тягнути вниз, щоб оновити"));
-      test('Italian', () => _checkStrings(const ItRefreshString(), "Tira giù per aggiornare"));
-      test('Japanese', () => _checkStrings(const JpRefreshString(), "下方スワイプでデータを更新"));
-      test('German', () => _checkStrings(const DeRefreshString(), "Ziehen für Aktualisierung"));
-      test('Spanish', () => _checkStrings(const EsRefreshString(), "Tire hacia abajo para refrescar"));
-      test('Dutch', () => _checkStrings(const NlRefreshString(), "Trek omlaag om te vernieuwen"));
-      test('Swedish', () => _checkStrings(const SvRefreshString(), "Dra ner för att uppdatera"));
-      test('Portuguese', () => _checkStrings(const PtRefreshString(), "Puxe para baixo para atualizar"));
-      test('Korean', () => _checkStrings(const KrRefreshString(), "아래로 당겨서 새로 고침"));
+    
+    test('RefreshLocalizations compatibility wrapper check', () {
+      final zh = RefreshLocalizations.getValues(const Locale('zh'));
+      expect(zh.idleRefreshText, "下拉刷新");
+      
+      final en = RefreshLocalizations.getValues(const Locale('en'));
+      expect(en.idleRefreshText, "Pull down Refresh");
     });
   });
 }
 
-void _checkStrings(RefreshString strings, String idleText) {
-  expect(strings.idleRefreshText, idleText);
-  // 触摸一下这些属性以确保覆盖
+void _checkLookup(Locale locale, String expectedIdleText) {
+  final strings = lookupAppLocalizationsPulltorefresh(locale);
+  expect(strings.idleRefreshText, expectedIdleText);
+  // Touch all properties for coverage
   expect(strings.canRefreshText, isNotNull);
   expect(strings.refreshingText, isNotNull);
   expect(strings.refreshCompleteText, isNotNull);

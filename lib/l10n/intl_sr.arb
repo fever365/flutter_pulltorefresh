@@ -1,0 +1,14 @@
+{
+  "@@locale": "sr",
+  "canLoadingText": "Otpustite za učitavanje više",
+  "canRefreshText": "Otpustite za osvežavanje",
+  "canTwoLevelText": "Otpustite za ulazak na drugi nivo",
+  "idleLoadingText": "Povucite nagore za učitavanje više",
+  "idleRefreshText": "Povucite nadole za osvežavanje",
+  "loadFailedText": "Učitavanje nije uspelo",
+  "loadingText": "Učitavanje…",
+  "noMoreText": "Nema više podataka",
+  "refreshCompleteText": "Osvežavanje završeno",
+  "refreshFailedText": "Osvežavanje nije uspelo",
+  "refreshingText": "Osvežavanje…"
+}

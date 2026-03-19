@@ -1,0 +1,14 @@
+{
+  "@@locale": "st",
+  "canLoadingText": "Lokolla ho kenya tse ling",
+  "canRefreshText": "Lokolla ho nchafatsa",
+  "canTwoLevelText": "Lokolla ho kena mokatong oa bobeli",
+  "idleLoadingText": "Hulela holimo ho kenya tse ling",
+  "idleRefreshText": "Hulela tlaase ho nchafatsa",
+  "loadFailedText": "Ho kenya ho hlolehile",
+  "loadingText": "E ntse e kenya…",
+  "noMoreText": "Ha ho sa na dintlha",
+  "refreshCompleteText": "Ho nchafatsa ho phethiloe",
+  "refreshFailedText": "Ho nchafatsa ho hlolehile",
+  "refreshingText": "E ntse e nchafatsa…"
+}

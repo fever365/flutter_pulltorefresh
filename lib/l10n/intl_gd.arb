@@ -1,0 +1,14 @@
+{
+  "@@locale": "gd",
+  "canLoadingText": "Leig às airson barrachd a luchdadh",
+  "canRefreshText": "Leig às airson ath-nuadhachadh",
+  "canTwoLevelText": "Leig às airson a dhol chun an dàrna ìre",
+  "idleLoadingText": "Slaod suas airson barrachd a luchdadh",
+  "idleRefreshText": "Slaod sìos airson ath-nuadhachadh",
+  "loadFailedText": "Dh’fhàillig an luchdadh",
+  "loadingText": "A’ luchdadh…",
+  "noMoreText": "Chan eil barrachd dàta ann",
+  "refreshCompleteText": "Ath-nuadhachadh deiseil",
+  "refreshFailedText": "Dh’fhàillig an t-ath-nuadhachadh",
+  "refreshingText": "Ag ath-nuadhachadh…"
+}

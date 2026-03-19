@@ -1,0 +1,14 @@
+{
+  "@@locale": "sk",
+  "canLoadingText": "Uvoľnením načítate viac",
+  "canRefreshText": "Uvoľnením obnovíte",
+  "canTwoLevelText": "Uvoľnením vstúpite na druhé poschodie",
+  "idleLoadingText": "Potiahnutím nahor načítate viac",
+  "idleRefreshText": "Potiahnutím nadol obnovíte",
+  "loadFailedText": "Načítanie zlyhalo",
+  "loadingText": "Načítava sa...",
+  "noMoreText": "Žiadne ďalšie údaje",
+  "refreshCompleteText": "Obnovenie dokončené",
+  "refreshFailedText": "Obnovenie zlyhalo",
+  "refreshingText": "Obnovuje sa..."
+}

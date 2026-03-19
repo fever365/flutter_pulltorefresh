@@ -1,0 +1,14 @@
+{
+  "@@locale": "cy",
+  "canLoadingText": "Gollwng i lwytho mwy",
+  "canRefreshText": "Gollwng i adnewyddu",
+  "canTwoLevelText": "Gollwng i fynd i'r ail lefel",
+  "idleLoadingText": "Tynnu i fyny i lwytho mwy",
+  "idleRefreshText": "Tynnu i lawr i adnewyddu",
+  "loadFailedText": "Methwyd â llwytho",
+  "loadingText": "Llwytho…",
+  "noMoreText": "Dim mwy o ddata",
+  "refreshCompleteText": "Adnewyddu wedi'i gwblhau",
+  "refreshFailedText": "Methwyd ag adnewyddu",
+  "refreshingText": "Adnewyddu…"
+}

@@ -1,0 +1,14 @@
+{
+  "@@locale": "bm",
+  "canLoadingText": "A bila ka dònnikɛla kura lawuli",
+  "canRefreshText": "A bila ka dònnikɛla kura kɛ",
+  "canTwoLevelText": "A bila ka don yɔrɔ filanan na",
+  "idleLoadingText": "A sama sanfɛ ka dònnikɛla kura lawuli",
+  "idleRefreshText": "A sama duguma ka dònnikɛla kura kɛ",
+  "loadFailedText": "Dònnikɛla kura ma bɛn",
+  "loadingText": "A bɛ dònna...",
+  "noMoreText": "Kuma tɛ fan fɛ tugun",
+  "refreshCompleteText": "Kura kɛra ka bɛn",
+  "refreshFailedText": "Kura ma bɛn",
+  "refreshingText": "A bɛ kura kɛra..."
+}

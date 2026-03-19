@@ -1,0 +1,14 @@
+{
+  "@@locale": "lt",
+  "canLoadingText": "Atleiskite, kad įkeltumėte daugiau",
+  "canRefreshText": "Atleiskite, kad atnaujintumėte",
+  "canTwoLevelText": "Atleiskite, kad patektumėte į antrą lygį",
+  "idleLoadingText": "Traukite aukštyn, kad įkeltumėte daugiau",
+  "idleRefreshText": "Traukite žemyn, kad atnaujintumėte",
+  "loadFailedText": "Įkelti nepavyko",
+  "loadingText": "Įkeliama...",
+  "noMoreText": "Daugiau duomenų nėra",
+  "refreshCompleteText": "Atnaujinimas baigtas",
+  "refreshFailedText": "Atnaujinti nepavyko",
+  "refreshingText": "Atnaujinama..."
+}

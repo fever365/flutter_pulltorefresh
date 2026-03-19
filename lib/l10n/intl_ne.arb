@@ -1,0 +1,14 @@
+{
+  "@@locale": "ne",
+  "canLoadingText": "थप लोड गर्न छोड्नुहोस्",
+  "canRefreshText": "रिफ्रेस गर्न छोड्नुहोस्",
+  "canTwoLevelText": "दोस्रो तलामा प्रवेश गर्न छोड्नुहोस्",
+  "idleLoadingText": "थप लोड गर्न माथि तान्नुहोस्",
+  "idleRefreshText": "रिफ्रेस गर्न तल तान्नुहोस्",
+  "loadFailedText": "लोड गर्न असफल",
+  "loadingText": "लोड हुँदैछ...",
+  "noMoreText": "थप डेटा छैन",
+  "refreshCompleteText": "रिफ्रेस पूरा भयो",
+  "refreshFailedText": "रिफ्रेस असफल भयो",
+  "refreshingText": "रिफ्रेस हुँदैछ..."
+}

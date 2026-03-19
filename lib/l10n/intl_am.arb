@@ -1,0 +1,14 @@
+{
+  "@@locale": "am",
+  "canLoadingText": "ተጨማሪ ለመጫን ልቀቅ",
+  "canRefreshText": "ለማደስ ልቀቅ",
+  "canTwoLevelText": "ወደ ሁለተኛ ደረጃ ለመግባት ልቀቅ",
+  "idleLoadingText": "ተጨማሪ ለመጫን ወደ ላይ ይጎትቱ",
+  "idleRefreshText": "ለማደስ ወደ ታች ይጎትቱ",
+  "loadFailedText": "መጫን አልተሳካም",
+  "loadingText": "በመጫን ላይ…",
+  "noMoreText": "ምንም ተጨማሪ መረጃ የለም",
+  "refreshCompleteText": "ማደስ ተጠናቅቋል",
+  "refreshFailedText": "ማደስ አልተሳካም",
+  "refreshingText": "በማደስ ላይ…"
+}

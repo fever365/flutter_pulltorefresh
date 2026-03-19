@@ -1,0 +1,14 @@
+{
+  "@@locale": "de",
+  "canLoadingText": "Loslassen, um mehr zu laden",
+  "canRefreshText": "Zum Aktualisieren loslassen",
+  "canTwoLevelText": "Lassen Sie los, um den zweiten Stock zu betreten",
+  "idleLoadingText": "Hochziehen, mehr laden",
+  "idleRefreshText": "Ziehen für Aktualisierung",
+  "loadFailedText": "Laden ist fehlgeschlagen",
+  "loadingText": "Lade…",
+  "noMoreText": "Keine weitere Daten",
+  "refreshCompleteText": "Aktualisierung fertig",
+  "refreshFailedText": "Aktualisierung fehlgeschlagen",
+  "refreshingText": "Aktualisiere…"
+}

@@ -1,0 +1,14 @@
+{
+  "@@locale": "az",
+  "canLoadingText": "Daha çox yükləmək üçün buraxın",
+  "canRefreshText": "Yeniləmək üçün buraxın",
+  "canTwoLevelText": "İkinci səviyyəyə daxil olmaq üçün buraxın",
+  "idleLoadingText": "Daha çox yükləmək üçün yuxarı çəkin",
+  "idleRefreshText": "Yeniləmək üçün aşağı çəkin",
+  "loadFailedText": "Yükləmə uğursuz oldu",
+  "loadingText": "Yüklənir…",
+  "noMoreText": "Daha çox məlumat yoxdur",
+  "refreshCompleteText": "Yeniləmə başa çatdı",
+  "refreshFailedText": "Yeniləmə uğursuz oldu",
+  "refreshingText": "Yenilənir…"
+}

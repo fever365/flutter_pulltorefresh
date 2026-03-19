@@ -1,0 +1,14 @@
+{
+  "@@locale": "hu",
+  "canLoadingText": "Engedje el a további töltéshez",
+  "canRefreshText": "Engedje el a frissítéshez",
+  "canTwoLevelText": "Engedje el a második szintre lépéshez",
+  "idleLoadingText": "Húzza fel a további töltéshez",
+  "idleRefreshText": "Húzza le a frissítéshez",
+  "loadFailedText": "Betöltés sikertelen",
+  "loadingText": "Betöltés…",
+  "noMoreText": "Nincs több adat",
+  "refreshCompleteText": "Frissítés kész",
+  "refreshFailedText": "Frissítés sikertelen",
+  "refreshingText": "Frissítés…"
+}

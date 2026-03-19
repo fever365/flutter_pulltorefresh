@@ -1,0 +1,14 @@
+{
+  "@@locale": "ht",
+  "canLoadingText": "Lage pou chaje plis",
+  "canRefreshText": "Lage pou rafrechi",
+  "canTwoLevelText": "Lage pou antre nan dezyèm nivo",
+  "idleLoadingText": "Rale moute pou chaje plis",
+  "idleRefreshText": "Rale desann pou rafrechi",
+  "loadFailedText": "Chajman echwe",
+  "loadingText": "Chaje…",
+  "noMoreText": "Pa gen plis done",
+  "refreshCompleteText": "Rafrechi konplè",
+  "refreshFailedText": "Rafrechi echwe",
+  "refreshingText": "Ap rafrechi…"
+}

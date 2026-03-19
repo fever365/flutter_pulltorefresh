@@ -1,0 +1,14 @@
+{
+  "@@locale": "fr",
+  "canLoadingText": "Relâchez pour charger davantage",
+  "canRefreshText": "Relâchez pour rafraîchir",
+  "canTwoLevelText": "Relâchez pour entrer secondfloor",
+  "idleLoadingText": "Tirez pour charger davantage",
+  "idleRefreshText": "Tirez pour rafraîchir",
+  "loadFailedText": "Chargement échoué",
+  "loadingText": "Chargement…",
+  "noMoreText": "Aucune autre donnée",
+  "refreshCompleteText": "Rafraîchissement terminé",
+  "refreshFailedText": "Rafraîchissement échoué",
+  "refreshingText": "Rafraîchissement…"
+}

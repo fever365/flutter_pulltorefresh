@@ -1,0 +1,14 @@
+{
+  "@@locale": "lo",
+  "canLoadingText": "ປ່ອຍເພື່ອໂຫລດເພີ່ມ",
+  "canRefreshText": "ປ່ອຍເພື່ອໂຫຼດໃໝ່",
+  "canTwoLevelText": "ປ່ອຍເພື່ອເຂົ້າສູ່ຊັ້ນທີສອງ",
+  "idleLoadingText": "ດຶງຂຶ້ນເພື່ອໂຫລດເພີ່ມ",
+  "idleRefreshText": "ດຶງລົງເພື່ອໂຫຼດໃໝ່",
+  "loadFailedText": "ໂຫລດບໍ່ສຳເລັດ",
+  "loadingText": "ກຳລັງໂຫລດ...",
+  "noMoreText": "ບໍ່ມີຂໍ້ມູນເພີ່ມເຕີມ",
+  "refreshCompleteText": "ໂຫຼດໃໝ່ສຳເລັດແລ້ວ",
+  "refreshFailedText": "ໂຫຼດໃໝ່ບໍ່ສຳເລັດ",
+  "refreshingText": "ກຳລັງໂຫຼດໃໝ່..."
+}

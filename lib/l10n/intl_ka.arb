@@ -1,0 +1,14 @@
+{
+  "@@locale": "ka",
+  "canLoadingText": "გაუშვით მეტის ჩასატვირთად",
+  "canRefreshText": "გაუშვით განსაახლებლად",
+  "canTwoLevelText": "გაუშვით მეორე დონეზე გადასასვლელად",
+  "idleLoadingText": "ასწიეთ მეტის ჩასატვირთად",
+  "idleRefreshText": "ჩამოსწიეთ განსაახლებლად",
+  "loadFailedText": "ჩატვირთვა ვერ მოხერხდა",
+  "loadingText": "იტვირთება…",
+  "noMoreText": "მეტი მონაცემი არ არის",
+  "refreshCompleteText": "განახლება დასრულდა",
+  "refreshFailedText": "განახლება ვერ მოხერხდა",
+  "refreshingText": "ახლდება…"
+}

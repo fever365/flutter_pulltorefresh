@@ -1,0 +1,14 @@
+{
+  "@@locale": "km",
+  "canLoadingText": "លែងដើម្បីផ្ទុកបន្ថែម",
+  "canRefreshText": "លែងដើម្បីធ្វើឱ្យស្រស់",
+  "canTwoLevelText": "លែងដើម្បីចូលទៅជាន់ទីពីរ",
+  "idleLoadingText": "អូសឡើងលើដើម្បីផ្ទុកបន្ថែម",
+  "idleRefreshText": "អូសចុះក្រោមเพื่อធ្វើឱ្យស្រស់",
+  "loadFailedText": "ការផ្ទុកបានបរាជ័យ",
+  "loadingText": "កំពុងផ្ទុក…",
+  "noMoreText": "គ្មានទិន្នន័យបន្ថែម",
+  "refreshCompleteText": "ការធ្វើឱ្យស្រស់បានបញ្ចប់",
+  "refreshFailedText": "ការធ្វើឱ្យស្រស់បានបរាជ័យ",
+  "refreshingText": "កំពុងធ្វើឱ្យស្រស់…"
+}

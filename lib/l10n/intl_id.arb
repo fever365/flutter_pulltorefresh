@@ -1,0 +1,14 @@
+{
+  "@@locale": "id",
+  "canLoadingText": "Lepaskan untuk memuat lebih",
+  "canRefreshText": "Lepaskan untuk menyegarkan",
+  "canTwoLevelText": "Lepaskan untuk masuk ke lantai dua",
+  "idleLoadingText": "Tarik ke atas untuk memuat",
+  "idleRefreshText": "Tarik ke bawah untuk menyegarkan",
+  "loadFailedText": "Pemuatan Gagal",
+  "loadingText": "Memuat...",
+  "noMoreText": "Tidak ada data lagi",
+  "refreshCompleteText": "Penyegaran Selesai",
+  "refreshFailedText": "Penyegaran Gagal",
+  "refreshingText": "Menyegarkan..."
+}

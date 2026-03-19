@@ -1,0 +1,14 @@
+{
+  "@@locale": "tk",
+  "canLoadingText": "Has köp ýüklemek üçin goýberiň",
+  "canRefreshText": "Tazelenmek üçin goýberiň",
+  "canTwoLevelText": "Ikinji gata girmek üçin goýberiň",
+  "idleLoadingText": "Has köp ýüklemek üçin ýokary çekiň",
+  "idleRefreshText": "Tazelenmek üçin aşak çekiň",
+  "loadFailedText": "Ýüklemek şowsuz boldy",
+  "loadingText": "Ýüklenýär…",
+  "noMoreText": "Başga maglumat ýok",
+  "refreshCompleteText": "Tazelenme tamamlandy",
+  "refreshFailedText": "Tazelenme şowsuz boldy",
+  "refreshingText": "Tazelenýär…"
+}

@@ -1,0 +1,14 @@
+{
+  "@@locale": "or",
+  "canLoadingText": "ଅଧିକ ଲୋଡ୍ କରିବା ପାଇଁ ଛାଡନ୍ତୁ",
+  "canRefreshText": "ରିଫ୍ରେଶ୍ କରିବା ପାଇଁ ଛାଡନ୍ତୁ",
+  "canTwoLevelText": "ଦ୍ୱିତୀୟ ମହଲାରେ ପ୍ରବେଶ କରିବା ପାଇଁ ଛାଡନ୍ତୁ",
+  "idleLoadingText": "ଅଧିକ ଲୋଡ୍ କରିବା ପାଇଁ ଉପରକୁ ଟାଣନ୍ତୁ",
+  "idleRefreshText": "ରିଫ୍ରେଶ୍ କରିବା ପାଇଁ ତଳକୁ ଟାଣନ୍ତୁ",
+  "loadFailedText": "ଲୋଡ୍ ବିଫଳ ହେଲା",
+  "loadingText": "ଲୋଡ୍ ହେଉଛି...",
+  "noMoreText": "ଆଉ ତଥ୍ୟ ନାହିଁ",
+  "refreshCompleteText": "ରିଫ୍ରେଶ୍ ସମାପ୍ତ ହେଲା",
+  "refreshFailedText": "ରିଫ୍ରେଶ୍ ବିଫଳ ହେଲା",
+  "refreshingText": "ରିଫ୍ରେଶ୍ ହେଉଛି..."
+}

@@ -1,0 +1,14 @@
+{
+  "@@locale": "ny",
+  "canLoadingText": "Masulani kuti mutsegule zina",
+  "canRefreshText": "Masulani kuti mutsegule mwatsopano",
+  "canTwoLevelText": "Masulani kuti mulowe pansanjika yachiwiri",
+  "idleLoadingText": "Kokani m'mwamba kuti mutsegule zina",
+  "idleRefreshText": "Kokani pansi kuti mutsegule mwatsopano",
+  "loadFailedText": "Zalephera kutsegula",
+  "loadingText": "Ikutsegula...",
+  "noMoreText": "Palibenso zina",
+  "refreshCompleteText": "Kwatsopano kwatha",
+  "refreshFailedText": "Zalephera kutsitsimutsa",
+  "refreshingText": "Ikutsitsimutsa..."
+}

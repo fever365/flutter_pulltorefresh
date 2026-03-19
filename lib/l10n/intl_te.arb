@@ -1,0 +1,14 @@
+{
+  "@@locale": "te",
+  "canLoadingText": "మరిన్ని లోడ్ చేయడానికి విడుదల చేయండి",
+  "canRefreshText": "రిఫ్రెష్ చేయడానికి విడుదల చేయండి",
+  "canTwoLevelText": "రెండవ అంతస్తులోకి ప్రవేశించడానికి విడుదల చేయండి",
+  "idleLoadingText": "మరిన్ని లోడ్ చేయడానికి పైకి లాగండి",
+  "idleRefreshText": "రిఫ్రెష్ చేయడానికి క్రిందికి లాగండి",
+  "loadFailedText": "లోడ్ చేయడం విఫలమైంది",
+  "loadingText": "లోడ్ అవుతోంది…",
+  "noMoreText": "మరింత డేటా లేదు",
+  "refreshCompleteText": "రిఫ్రెష్ పూర్తయింది",
+  "refreshFailedText": "రిఫ్రెష్ విఫలమైంది",
+  "refreshingText": "రిఫ్రెష్ అవుతోంది…"
+}

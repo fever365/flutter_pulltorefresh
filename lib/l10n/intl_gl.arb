@@ -1,0 +1,14 @@
+{
+  "@@locale": "gl",
+  "canLoadingText": "Solta para cargar máis",
+  "canRefreshText": "Solta para actualizar",
+  "canTwoLevelText": "Solta para entrar no segundo nivel",
+  "idleLoadingText": "Tira cara arriba para cargar máis",
+  "idleRefreshText": "Tira cara abaixo para actualizar",
+  "loadFailedText": "Erro na carga",
+  "loadingText": "Cargando…",
+  "noMoreText": "Non hai máis datos",
+  "refreshCompleteText": "Actualización completada",
+  "refreshFailedText": "Erro na actualización",
+  "refreshingText": "Actualizando…"
+}

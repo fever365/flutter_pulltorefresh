@@ -1,0 +1,14 @@
+{
+  "@@locale": "sq",
+  "canLoadingText": "Lësho për të ngarkuar më shumë",
+  "canRefreshText": "Lësho për të rifreskuar",
+  "canTwoLevelText": "Lësho për të hyrë në katin e dytë",
+  "idleLoadingText": "Tërhiq lart për të ngarkuar më shumë",
+  "idleRefreshText": "Tërhiq poshtë për të rifreskuar",
+  "loadFailedText": "Ngarkimi dështoi",
+  "loadingText": "Duke u ngarkuar…",
+  "noMoreText": "Nuk ka më të dhëna",
+  "refreshCompleteText": "Rifreskimi përfundoi",
+  "refreshFailedText": "Rifreskimi dështoi",
+  "refreshingText": "Duke u rifreskuar…"
+}

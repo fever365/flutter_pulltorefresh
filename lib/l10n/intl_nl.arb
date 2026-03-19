@@ -1,0 +1,14 @@
+{
+  "@@locale": "nl",
+  "canLoadingText": "Laat los om meer te laden",
+  "canRefreshText": "Laat los om te vernieuwen",
+  "canTwoLevelText": "Laat los om naar tweede verdieping te gaan",
+  "idleLoadingText": "Trek omhoog om meer te laden",
+  "idleRefreshText": "Trek omlaag om te vernieuwen",
+  "loadFailedText": "Laden mislukt",
+  "loadingText": "Laden…",
+  "noMoreText": "Geen data meer",
+  "refreshCompleteText": "Vernieuwen voltooid",
+  "refreshFailedText": "Vernieuwen mislukt",
+  "refreshingText": "Vernieuwen…"
+}

@@ -1,0 +1,14 @@
+{
+  "@@locale": "ms",
+  "canLoadingText": "Lepaskan untuk memuatkan lebih banyak",
+  "canRefreshText": "Lepaskan untuk menyegar semula",
+  "canTwoLevelText": "Lepaskan untuk masuk ke tingkat kedua",
+  "idleLoadingText": "Tarik ke atas untuk memuatkan lebih banyak",
+  "idleRefreshText": "Tarik ke bawah untuk menyegar semula",
+  "loadFailedText": "Gagal memuatkan",
+  "loadingText": "Memuatkan...",
+  "noMoreText": "Tiada lagi data",
+  "refreshCompleteText": "Segar semula selesai",
+  "refreshFailedText": "Gagal menyegar semula",
+  "refreshingText": "Menyegar semula..."
+}

@@ -1,0 +1,14 @@
+{
+  "@@locale": "fy",
+  "canLoadingText": "Loslitte om mear te laden",
+  "canRefreshText": "Loslitte om te ferfarskje",
+  "canTwoLevelText": "Loslitte om nei de twadde ferdjipping te gean",
+  "idleLoadingText": "Omheech lûke om mear te laden",
+  "idleRefreshText": "Omleech lûke om te ferfarskje",
+  "loadFailedText": "Laden mislearre",
+  "loadingText": "Laden…",
+  "noMoreText": "Gjin gegevens mear",
+  "refreshCompleteText": "Ferfarskjen klear",
+  "refreshFailedText": "Ferfarskjen mislearre",
+  "refreshingText": "Ferfarskjen…"
+}

@@ -1,0 +1,14 @@
+{
+  "@@locale": "el",
+  "canLoadingText": "Αφήστε για να φορτώσετε περισσότερα",
+  "canRefreshText": "Αφήστε για ανανέωση",
+  "canTwoLevelText": "Αφήστε για να εισέλθετε στο δεύτερο επίπεδο",
+  "idleLoadingText": "Σύρετε προς τα πάνω για φόρτωση",
+  "idleRefreshText": "Σύρετε προς τα κάτω για ανανέωση",
+  "loadFailedText": "Η φόρτωση απέτυχε",
+  "loadingText": "Φόρτωση…",
+  "noMoreText": "Δεν υπάρχουν άλλα δεδομένα",
+  "refreshCompleteText": "Η ανανέωση ολοκληρώθηκε",
+  "refreshFailedText": "Η ανανέωση απέτυχε",
+  "refreshingText": "Ανανέωση…"
+}

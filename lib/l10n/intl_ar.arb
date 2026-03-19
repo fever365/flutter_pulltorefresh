@@ -1,0 +1,14 @@
+{
+  "@@locale": "ar",
+  "canLoadingText": "إفلات للتحميل المزيد",
+  "canRefreshText": "إفلات للتحديث",
+  "canTwoLevelText": "إفلات للدخول للطابق الثاني",
+  "idleLoadingText": "اسحب للأعلى للتحميل المزيد",
+  "idleRefreshText": "اسحب للأسفل للتحديث",
+  "loadFailedText": "فشل التحميل",
+  "loadingText": "جاري التحميل...",
+  "noMoreText": "لا يوجد المزيد من البيانات",
+  "refreshCompleteText": "اكتمل التحديث",
+  "refreshFailedText": "فشل التحديث",
+  "refreshingText": "جاري التحديث..."
+}

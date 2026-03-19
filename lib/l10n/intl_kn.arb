@@ -1,0 +1,14 @@
+{
+  "@@locale": "kn",
+  "canLoadingText": "ಹೆಚ್ಚಿನದನ್ನು ಲೋಡ್ ಮಾಡಲು ಬಿಡಿ",
+  "canRefreshText": "ನವೀಕರಿಸಲು ಬಿಡಿ",
+  "canTwoLevelText": "ಎರಡನೇ ಹಂತಕ್ಕೆ ಪ್ರವೇಶಿಸಲು ಬಿಡಿ",
+  "idleLoadingText": "ಹೆಚ್ಚಿನದನ್ನು ಲೋಡ್ ಮಾಡಲು ಮೇಲೆ ಎಳೆಯಿರಿ",
+  "idleRefreshText": "ನವೀಕರಿಸಲು ಕೆಳಗೆ ಎಳೆಯಿರಿ",
+  "loadFailedText": "ಲೋಡ್ ವಿಫಲವಾಗಿದೆ",
+  "loadingText": "ಲೋಡ್ ಆಗುತ್ತಿದೆ…",
+  "noMoreText": "ಇನ್ನು ಹೆಚ್ಚಿನ ಡೇಟಾ ಇಲ್ಲ",
+  "refreshCompleteText": "ನವೀಕರಣ ಪೂರ್ಣಗೊಂಡಿದೆ",
+  "refreshFailedText": "ನವೀಕರಣ ವಿಫಲವಾಗಿದೆ",
+  "refreshingText": "ನವೀಕರಿಸಲಾಗುತ್ತಿದೆ…"
+}

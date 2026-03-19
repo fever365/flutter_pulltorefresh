@@ -1,0 +1,14 @@
+{
+  "@@locale": "fi",
+  "canLoadingText": "Vapauta ladataksesi lisää",
+  "canRefreshText": "Vapauta päivittääksesi",
+  "canTwoLevelText": "Vapauta siirtyäksesi toiselle tasolle",
+  "idleLoadingText": "Vedä ylös ladataksesi lisää",
+  "idleRefreshText": "Vedä alas päivittääksesi",
+  "loadFailedText": "Lataus epäonnistui",
+  "loadingText": "Ladataan…",
+  "noMoreText": "Ei enempää tietoja",
+  "refreshCompleteText": "Päivitys valmis",
+  "refreshFailedText": "Päivitys epäonnistui",
+  "refreshingText": "Päivitetään…"
+}

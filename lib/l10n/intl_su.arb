@@ -1,0 +1,14 @@
+{
+  "@@locale": "su",
+  "canLoadingText": "Leupaskeun pikeun ngamuat deui",
+  "canRefreshText": "Leupaskeun pikeun nyegerkeun",
+  "canTwoLevelText": "Leupaskeun pikeun asup ka tingkat kadua",
+  "idleLoadingText": "Tarik ka luhur pikeun ngamuat deui",
+  "idleRefreshText": "Tarik ka handap pikeun nyegerkeun",
+  "loadFailedText": "Gagal ngamuat",
+  "loadingText": "Nuju ngamuat…",
+  "noMoreText": "Teu aya deui data",
+  "refreshCompleteText": "Panyegeran rengse",
+  "refreshFailedText": "Panyegeran gagal",
+  "refreshingText": "Nuju nyegerkeun…"
+}

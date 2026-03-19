@@ -1,0 +1,14 @@
+{
+  "@@locale": "sw",
+  "canLoadingText": "Achilia ili kupakia zaidi",
+  "canRefreshText": "Achilia ili kuonyesha upya",
+  "canTwoLevelText": "Achilia ili kuingia ghorofa ya pili",
+  "idleLoadingText": "Vuta juu ili kupakia zaidi",
+  "idleRefreshText": "Vuta chini ili kuonyesha upya",
+  "loadFailedText": "Upakiaji umeshindwa",
+  "loadingText": "Inapakia…",
+  "noMoreText": "Hakuna data zaidi",
+  "refreshCompleteText": "Uonyeshaji upya umekamilika",
+  "refreshFailedText": "Uonyeshaji upya umeshindwa",
+  "refreshingText": "Inaonyesha upya…"
+}

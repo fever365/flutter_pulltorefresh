@@ -1,0 +1,14 @@
+{
+  "@@locale": "fa",
+  "canLoadingText": "رها کنید برای بارگذاری بیشتر",
+  "canRefreshText": "رها کنید برای بروزرسانی",
+  "canTwoLevelText": "رها کنید برای ورود به طبقه دوم",
+  "idleLoadingText": "بکشید بالا برای بارگذاری بیشتر",
+  "idleRefreshText": "بکشید پایین برای بروزرسانی",
+  "loadFailedText": "بارگذاری ناموفق",
+  "loadingText": "در حال بارگذاری…",
+  "noMoreText": "داده دیگری وجود ندارد",
+  "refreshCompleteText": "بروزرسانی کامل شد",
+  "refreshFailedText": "بروزرسانی ناموفق",
+  "refreshingText": "در حال بروزرسانی…"
+}

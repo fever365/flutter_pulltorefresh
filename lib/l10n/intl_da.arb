@@ -1,0 +1,14 @@
+{
+  "@@locale": "da",
+  "canLoadingText": "Slip for at indlæse mere",
+  "canRefreshText": "Slip for at opdatere",
+  "canTwoLevelText": "Slip for at gå til andet niveau",
+  "idleLoadingText": "Træk op for at indlæse mere",
+  "idleRefreshText": "Træk ned for at opdatere",
+  "loadFailedText": "Indlæsning mislykkedes",
+  "loadingText": "Indlæser…",
+  "noMoreText": "Ikke flere data",
+  "refreshCompleteText": "Opdatering gennemført",
+  "refreshFailedText": "Opdatering mislykkedes",
+  "refreshingText": "Opdaterer…"
+}

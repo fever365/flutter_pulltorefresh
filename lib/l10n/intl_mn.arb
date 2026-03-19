@@ -1,0 +1,14 @@
+{
+  "@@locale": "mn",
+  "canLoadingText": "Илүү ихийг ачаалахын тулд суллана уу",
+  "canRefreshText": "Шинэчлэхирь тулд суллана уу",
+  "canTwoLevelText": "Хоёрдугаар түвшинд орохын тулд суллана уу",
+  "idleLoadingText": "Илүү ихийг ачаалахын тулд дээш татна уу",
+  "idleRefreshText": "Шинэчлэхийн тулд доош татна уу",
+  "loadFailedText": "Ачаалахад алдаа гарлаа",
+  "loadingText": "Ачаалж байна...",
+  "noMoreText": "Өгөгдөл дахин байхгүй",
+  "refreshCompleteText": "Шинэчлэлт дууслаа",
+  "refreshFailedText": "Шинэчлэлт амжилтгүй боллоо",
+  "refreshingText": "Шинэчлэж байна..."
+}

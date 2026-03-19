@@ -1,0 +1,14 @@
+{
+  "@@locale": "bg",
+  "canLoadingText": "Пуснете за зареждане на повече",
+  "canRefreshText": "Пуснете за опресняване",
+  "canTwoLevelText": "Пуснете за влизане във второ ниво",
+  "idleLoadingText": "Издърпайте нагоре за зареждане",
+  "idleRefreshText": "Издърпайте надолу за опресняване",
+  "loadFailedText": "Зареждането неуспешно",
+  "loadingText": "Зареждане…",
+  "noMoreText": "Няма повече данни",
+  "refreshCompleteText": "Опресняването завършено",
+  "refreshFailedText": "Опресняването неуспешно",
+  "refreshingText": "Опресняване…"
+}

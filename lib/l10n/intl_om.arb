@@ -1,0 +1,14 @@
+{
+  "@@locale": "om",
+  "canLoadingText": "Gadhiisi dabalata fiduuf",
+  "canRefreshText": "Gadhiisi haaromsuuf",
+  "canTwoLevelText": "Gadhiisi gara darbii lammaffaatti seenuuf",
+  "idleLoadingText": "Gadi harkisi dabalata fiduuf",
+  "idleRefreshText": "Ol harkisi haaromsuuf",
+  "loadFailedText": "Fiduun kufeera",
+  "loadingText": "Fidaa jira...",
+  "noMoreText": "Daataan dabalataa hin jiru",
+  "refreshCompleteText": "Haaromsuun xumurameera",
+  "refreshFailedText": "Haaromsuun kufeera",
+  "refreshingText": "Haaromsaa jira..."
+}

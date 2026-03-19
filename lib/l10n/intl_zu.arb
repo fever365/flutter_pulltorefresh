@@ -1,0 +1,14 @@
+{
+  "@@locale": "zu",
+  "canLoadingText": "Khulula ukuze ulayishe okwengeziwe",
+  "canRefreshText": "Khulula ukuze uvuselele",
+  "canTwoLevelText": "Khulula ukuze ungene esitezi sesibili",
+  "idleLoadingText": "Donsela phezulu Layisha okwengeziwe",
+  "idleRefreshText": "Donsela phansi Vuselela",
+  "loadFailedText": "Ukulayisha kuhlulekile",
+  "loadingText": "Iyalayisha…",
+  "noMoreText": "Ayikho idatha eyengeziwe",
+  "refreshCompleteText": "Ukuvuselela kuqedile",
+  "refreshFailedText": "Ukuvuselela kuhlulekile",
+  "refreshingText": "Iyavuselela…"
+}

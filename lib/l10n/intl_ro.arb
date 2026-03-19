@@ -1,0 +1,14 @@
+{
+  "@@locale": "ro",
+  "canLoadingText": "Eliberați pentru a încărca mai mult",
+  "canRefreshText": "Eliberați pentru a reîmprospăta",
+  "canTwoLevelText": "Eliberați pentru a intra la etajul doi",
+  "idleLoadingText": "Trageți în sus pour a încărca mai mult",
+  "idleRefreshText": "Trageți în jos pentru a reîmprospăta",
+  "loadFailedText": "Încărcare eșuată",
+  "loadingText": "Se încarcă...",
+  "noMoreText": "Nu mai există date",
+  "refreshCompleteText": "Reîmprospătare finalizată",
+  "refreshFailedText": "Reîmprospătare eșuată",
+  "refreshingText": "Se reîmprospătează..."
+}

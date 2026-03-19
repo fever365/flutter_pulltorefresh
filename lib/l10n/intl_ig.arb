@@ -1,0 +1,14 @@
+{
+  "@@locale": "ig",
+  "canLoadingText": "Hapụ ka ibunye ihe ndị ọzọ",
+  "canRefreshText": "Hapụ ka o megharia",
+  "canTwoLevelText": "Hapụ ka ịbanye n'ala nke abụọ",
+  "idleLoadingText": "Dọrọ n'elu ka ibunye ihe ndị ọzọ",
+  "idleRefreshText": "Dọrọ n'ala ka o megharia",
+  "loadFailedText": "Ibunye adaala",
+  "loadingText": "Na-ebunye…",
+  "noMoreText": "Enweghị data ọzọ",
+  "refreshCompleteText": "Emelitere nke ọma",
+  "refreshFailedText": "Emelitere adaala",
+  "refreshingText": "Na-emegharia…"
+}

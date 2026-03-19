@@ -1,0 +1,14 @@
+{
+  "@@locale": "mi",
+  "canLoadingText": "Tuku kia uta anō",
+  "canRefreshText": "Tuku kia whakahou",
+  "canTwoLevelText": "Tuku kia tomo ki te papa tuarua",
+  "idleLoadingText": "Kumea ki runga kia uta anō",
+  "idleRefreshText": "Kumea ki raro kia whakahou",
+  "loadFailedText": " i huakina te uta",
+  "loadingText": "E uta ana...",
+  "noMoreText": "Kāore he raraunga anō",
+  "refreshCompleteText": "Kua oti te whakahou",
+  "refreshFailedText": " i huakina te whakahou",
+  "refreshingText": "E whakahou ana..."
+}

@@ -1,0 +1,14 @@
+{
+  "@@locale": "uk",
+  "canLoadingText": "Відпустіть, щоб завантажити більше",
+  "canRefreshText": "Відпустіть, щоб оновити",
+  "canTwoLevelText": "Відпустіть, щоб увійти на другий рівень",
+  "idleLoadingText": "Тягнути вгору, щоб завантажити більше",
+  "idleRefreshText": "Тягнути вниз, щоб оновити",
+  "loadFailedText": "Помилка завантаження",
+  "loadingText": "Завантаження…",
+  "noMoreText": "Більше даних немає",
+  "refreshCompleteText": "Оновлення завершено",
+  "refreshFailedText": "Не вдалося оновити",
+  "refreshingText": "Оновлення…"
+}

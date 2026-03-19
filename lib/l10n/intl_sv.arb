@@ -1,0 +1,14 @@
+{
+  "@@locale": "sv",
+  "canLoadingText": "Släpp för att ladda mer",
+  "canRefreshText": "Släpp för att uppdatera",
+  "canTwoLevelText": "Släpp för att gå till andra våningen",
+  "idleLoadingText": "Dra upp för att ladda mer",
+  "idleRefreshText": "Dra ner för att uppdatera",
+  "loadFailedText": "Hämtningen misslyckades",
+  "loadingText": "Laddar…",
+  "noMoreText": "Ingen mer data",
+  "refreshCompleteText": "Uppdaterad",
+  "refreshFailedText": "Kunde inte uppdatera",
+  "refreshingText": "Uppdaterar…"
+}

@@ -1,0 +1,14 @@
+{
+  "@@locale": "lv",
+  "canLoadingText": "Atlaidiet, lai ielādētu vairāk",
+  "canRefreshText": "Atlaidiet, lai atsvaidzinātu",
+  "canTwoLevelText": "Atlaidiet, lai ieietu otrajā līmenī",
+  "idleLoadingText": "Velciet uz augšu, lai ielādētu vairāk",
+  "idleRefreshText": "Velciet uz leju, lai atsvaidzinātu",
+  "loadFailedText": "Ielāde neizdevās",
+  "loadingText": "Ielādē...",
+  "noMoreText": "Nav vairāk datu",
+  "refreshCompleteText": "Atsvaidzināšana pabeigta",
+  "refreshFailedText": "Atsvaidzināšana neizdevās",
+  "refreshingText": "Atsvaidzina..."
+}

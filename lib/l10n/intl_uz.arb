@@ -1,0 +1,14 @@
+{
+  "@@locale": "uz",
+  "canLoadingText": "Ko'proq yuklash uchun qo'yib yuboring",
+  "canRefreshText": "Yangilash uchun qo'yib yuboring",
+  "canTwoLevelText": "Ikkinchi qavatga kirish uchun qo'yib yuboring",
+  "idleLoadingText": "Ko'proq yuklash uchun yuqoriga torting",
+  "idleRefreshText": "Yangilash uchun pastga torting",
+  "loadFailedText": "Yuklanmadi",
+  "loadingText": "Yuklanmoqda…",
+  "noMoreText": "Boshqa ma'lumot yo'q",
+  "refreshCompleteText": "Yangilash tugallandi",
+  "refreshFailedText": "Yangilash amalga oshmadi",
+  "refreshingText": "Yangilanmoqda…"
+}

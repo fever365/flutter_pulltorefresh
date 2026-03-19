@@ -1,0 +1,14 @@
+{
+  "@@locale": "mt",
+  "canLoadingText": "Itlaq biex tgħabbi aktar",
+  "canRefreshText": "Itlaq biex taġġorna",
+  "canTwoLevelText": "Itlaq biex tidħol fit-tieni sular",
+  "idleLoadingText": "Iġbed 'il fuq biex tgħabbi aktar",
+  "idleRefreshText": "Iġbed 'l isfel biex taġġorna",
+  "loadFailedText": "It-tagħbija falliet",
+  "loadingText": "Qed tgħabbi...",
+  "noMoreText": "M'hemmx aktar dejta",
+  "refreshCompleteText": "Aġġornament lest",
+  "refreshFailedText": "L-aġġornament falla",
+  "refreshingText": "Qed taġġorna..."
+}

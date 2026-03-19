@@ -1,0 +1,14 @@
+{
+  "@@locale": "mk",
+  "canLoadingText": "Отпуштете за да вчитате повеќе",
+  "canRefreshText": "Отпуштете за да освежите",
+  "canTwoLevelText": "Отпуштете за да влезете на вториот кат",
+  "idleLoadingText": "Повлечете нагоре за вчитување",
+  "idleRefreshText": "Повлечете надолу за освежување",
+  "loadFailedText": "Вчитувањето не успеа",
+  "loadingText": "Се вчита...",
+  "noMoreText": "Нема повеќе податоци",
+  "refreshCompleteText": "Освежувањето заврши",
+  "refreshFailedText": "Освежувањето не успеа",
+  "refreshingText": "Се освежува..."
+}

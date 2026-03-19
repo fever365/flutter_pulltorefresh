@@ -1,0 +1,14 @@
+{
+  "@@locale": "lb",
+  "canLoadingText": "Lassloossen fir méi ze lueden",
+  "canRefreshText": "Lassloossen fir ze aktualiséieren",
+  "canTwoLevelText": "Lassloossen fir op den zweete Stack ze goen",
+  "idleLoadingText": "Eropzéien fir méi ze lueden",
+  "idleRefreshText": "Erofzéien fir ze aktualiséieren",
+  "loadFailedText": "Lueden feelgeschloen",
+  "loadingText": "Lueden…",
+  "noMoreText": "Keng weider Daten",
+  "refreshCompleteText": "Aktualiséierung fäerdeg",
+  "refreshFailedText": "Aktualiséierung feelgeschloen",
+  "refreshingText": "Aktualiséieren…"
+}

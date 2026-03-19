@@ -1,0 +1,14 @@
+{
+  "@@locale": "tt",
+  "canLoadingText": "Күбрәк йөкләгез",
+  "canRefreshText": "Яңартыгыз",
+  "canTwoLevelText": "Икенче катка керегез",
+  "idleLoadingText": "Йөкләү өчен өскә тартыгыз",
+  "idleRefreshText": "Яңарту өчен аска тартыгыз",
+  "loadFailedText": "Йөкләү уңышсыз",
+  "loadingText": "Йөкләнә…",
+  "noMoreText": "Башка мәгълүмат юк",
+  "refreshCompleteText": "Яңарту тәмам",
+  "refreshFailedText": "Яңарту уңышсыз",
+  "refreshingText": "Яңартыла…"
+}

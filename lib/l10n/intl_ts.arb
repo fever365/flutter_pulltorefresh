@@ -1,0 +1,14 @@
+{
+  "@@locale": "ts",
+  "canLoadingText": "Tshika leswaku u paka swo tala",
+  "canRefreshText": "Tshika leswaku u pfuxeta",
+  "canTwoLevelText": "Tshika leswaku u nghena eka nivo ya vumbirhi",
+  "idleLoadingText": "Koka u ya ehenhla leswaku u paka swo tala",
+  "idleRefreshText": "Koka u ya ehansi leswaku u pfuxeta",
+  "loadFailedText": "Ku paka ku tsandzile",
+  "loadingText": "Ya paka…",
+  "noMoreText": "Ku hava data yin'wana",
+  "refreshCompleteText": "Ku pfuxeta ku herile",
+  "refreshFailedText": "Ku pfuxeta ku tsandzile",
+  "refreshingText": "Ya pfuxeta…"
+}

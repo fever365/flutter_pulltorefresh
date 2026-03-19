@@ -1,0 +1,14 @@
+{
+  "@@locale": "gu",
+  "canLoadingText": "વધુ લોડ કરવા માટે છોડો",
+  "canRefreshText": "તાજું કરવા માટે છોડો",
+  "canTwoLevelText": "બીજા સ્તરે જવા માટે છોડો",
+  "idleLoadingText": "વધુ લોડ કરવા માટે ઉપર ખેંચો",
+  "idleRefreshText": "તાજું કરવા માટે નીચે ખેંચો",
+  "loadFailedText": "લોડ કરવામાં નિષ્ફળ",
+  "loadingText": "લોડ થઈ રહ્યું છે…",
+  "noMoreText": "વધુ ડેટા નથી",
+  "refreshCompleteText": "તાજું કરવાનું પૂર્ણ થયું",
+  "refreshFailedText": "તાજું કરવામાં નિષ્ફળ",
+  "refreshingText": "તાજું થઈ રહ્યું છે…"
+}

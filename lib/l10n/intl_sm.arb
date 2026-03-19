@@ -1,0 +1,14 @@
+{
+  "@@locale": "sm",
+  "canLoadingText": "Tatala e la'u mai nisi",
+  "canRefreshText": "Tatala e toe fa'afou",
+  "canTwoLevelText": "Tatala e ulufale ai i le fogafale lua",
+  "idleLoadingText": "Toso i luga e la'u mai nisi",
+  "idleRefreshText": "Toso i lalo e toe fa'afou",
+  "loadFailedText": "Ua le mafai ona la'u mai",
+  "loadingText": "O lo'o la'u mai...",
+  "noMoreText": "Ua leai nisi fa'amatalaga",
+  "refreshCompleteText": "Ua mae'a ona toe fa'afou",
+  "refreshFailedText": "Ua le mafai ona toe fa'afou",
+  "refreshingText": "O lo'o toe fa'afouina..."
+}

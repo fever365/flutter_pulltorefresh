@@ -1,0 +1,14 @@
+{
+  "@@locale": "zh_HK",
+  "canLoadingText": "鬆手開始載入數據",
+  "canRefreshText": "鬆開開始重新整理",
+  "canTwoLevelText": "釋放手勢,進入二樓",
+  "idleLoadingText": "上拉載入",
+  "idleRefreshText": "下拉重新整理",
+  "loadFailedText": "載入失敗",
+  "loadingText": "載入中…",
+  "noMoreText": "沒有更多數據了",
+  "refreshCompleteText": "重新整理完成",
+  "refreshFailedText": "重新整理失敗",
+  "refreshingText": "重新整理中…"
+}

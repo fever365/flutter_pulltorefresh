@@ -1,0 +1,14 @@
+{
+  "@@locale": "mr",
+  "canLoadingText": "अधिक लोड करण्यासाठी सोडा",
+  "canRefreshText": "रिफ्रेश करण्यासाठी सोडा",
+  "canTwoLevelText": "दुसऱ्या मजल्यावर जाण्यासाठी सोडा",
+  "idleLoadingText": "अधिक लोड करण्यासाठी वर ओढा",
+  "idleRefreshText": "रिफ्रेश करण्यासाठी खाली ओढा",
+  "loadFailedText": "लोड करणे अयशस्वी",
+  "loadingText": "लोड होत आहे...",
+  "noMoreText": "आणखी डेटा नाही",
+  "refreshCompleteText": "रिफ्रेश पूर्ण झाले",
+  "refreshFailedText": "रिफ्रेश अयशस्वी",
+  "refreshingText": "रिफ्रेश होत आहे..."
+}

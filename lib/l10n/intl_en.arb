@@ -1,0 +1,14 @@
+{
+  "@@locale": "en",
+  "canLoadingText": "Release to load more",
+  "canRefreshText": "Release to refresh",
+  "canTwoLevelText": "Release to enter secondfloor",
+  "idleLoadingText": "Pull up Load more",
+  "idleRefreshText": "Pull down Refresh",
+  "loadFailedText": "Load Failed",
+  "loadingText": "Loading…",
+  "noMoreText": "No more data",
+  "refreshCompleteText": "Refresh completed",
+  "refreshFailedText": "Refresh failed",
+  "refreshingText": "Refreshing…"
+}

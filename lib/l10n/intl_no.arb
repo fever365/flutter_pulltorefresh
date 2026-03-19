@@ -1,0 +1,14 @@
+{
+  "@@locale": "no",
+  "canLoadingText": "Slipp for å laste mer",
+  "canRefreshText": "Slipp for å oppdatere",
+  "canTwoLevelText": "Slipp for å gå til andre etasje",
+  "idleLoadingText": "Dra opp for å laste mer",
+  "idleRefreshText": "Dra ned for å oppdatere",
+  "loadFailedText": "Lasting feilet",
+  "loadingText": "Laster...",
+  "noMoreText": "Ingen flere data",
+  "refreshCompleteText": "Oppdatering fullført",
+  "refreshFailedText": "Oppdatering feilet",
+  "refreshingText": "Oppdaterer..."
+}

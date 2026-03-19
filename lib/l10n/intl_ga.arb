@@ -1,0 +1,14 @@
+{
+  "@@locale": "ga",
+  "canLoadingText": "Scaoil chun níos mó a luchtú",
+  "canRefreshText": "Scaoil chun athnuachan a dhéanamh",
+  "canTwoLevelText": "Scaoil chun dul isteach sa dara leibhéal",
+  "idleLoadingText": "Tarraing suas chun níos mó a luchtú",
+  "idleRefreshText": "Tarraing síos chun athnuachan a dhéanamh",
+  "loadFailedText": "Theip ar an luchtú",
+  "loadingText": "Ag luchtú…",
+  "noMoreText": "Níl níos mó sonraí ann",
+  "refreshCompleteText": "Athnuachan críochnaithe",
+  "refreshFailedText": "Theip ar an athnuachan",
+  "refreshingText": "Ag athnuachan…"
+}

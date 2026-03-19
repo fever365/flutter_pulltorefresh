@@ -1,0 +1,14 @@
+{
+  "@@locale": "et",
+  "canLoadingText": "Vabastage, et laadida rohkem",
+  "canRefreshText": "Vabastage, et värskendada",
+  "canTwoLevelText": "Vabastage, et siseneda teisele korrusele",
+  "idleLoadingText": "Tõmmake üles, et laadida rohkem",
+  "idleRefreshText": "Tõmmake alla, et värskendada",
+  "loadFailedText": "Laadimine ebaõnnestus",
+  "loadingText": "Laadimine…",
+  "noMoreText": "Andmeid pole rohkem",
+  "refreshCompleteText": "Värskendamine lõpetatud",
+  "refreshFailedText": "Värskendamine ebaõnnestus",
+  "refreshingText": "Värskendamine…"
+}

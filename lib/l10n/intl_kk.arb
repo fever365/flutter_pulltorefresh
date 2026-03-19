@@ -1,0 +1,14 @@
+{
+  "@@locale": "kk",
+  "canLoadingText": "Көбірек жүктеу үшін жіберіңіз",
+  "canRefreshText": "Жаңарту үшін жіберіңіз",
+  "canTwoLevelText": "Екінші деңгейге өту үшін жіберіңіз",
+  "idleLoadingText": "Көбірек жүктеу үшін жоғары тартыңыз",
+  "idleRefreshText": "Жаңарту үшін төмен тартыңыз",
+  "loadFailedText": "Жүктеу сәтсіз аяқталды",
+  "loadingText": "Жүктелуде…",
+  "noMoreText": "Басқа деректер жоқ",
+  "refreshCompleteText": "Жаңарту аяқталды",
+  "refreshFailedText": "Жаңарту сәтсіз аяқталды",
+  "refreshingText": "Жаңартылуда…"
+}

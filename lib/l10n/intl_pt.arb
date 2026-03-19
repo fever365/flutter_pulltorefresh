@@ -1,0 +1,14 @@
+{
+  "@@locale": "pt",
+  "canLoadingText": "Solte para carregar mais",
+  "canRefreshText": "Solte para atualizar",
+  "canTwoLevelText": "Solte para entrar no segundo andar",
+  "idleLoadingText": "Puxe para cima para carregar mais",
+  "idleRefreshText": "Puxe para baixo para atualizar",
+  "loadFailedText": "Falha ao carregar",
+  "loadingText": "Carregando…",
+  "noMoreText": "Não há mais dados",
+  "refreshCompleteText": "Atualização completada",
+  "refreshFailedText": "Falha ao atualizar",
+  "refreshingText": "Atualizando…"
+}

@@ -1,0 +1,14 @@
+{
+  "@@locale": "pa",
+  "canLoadingText": "ਹੋਰ ਲੋਡ ਕਰਨ ਲਈ ਛੱਡੋ",
+  "canRefreshText": "ਰਿਫ੍ਰੈਸ਼ ਕਰਨ ਲਈ ਛੱਡੋ",
+  "canTwoLevelText": "ਦੂਜੀ ਮੰਜ਼ਿਲ 'ਤੇ ਜਾਣ ਲਈ ਛੱਡੋ",
+  "idleLoadingText": "ਹੋਰ ਲੋਡ ਕਰਨ ਲਈ ਉੱਪਰ ਖਿੱਚੋ",
+  "idleRefreshText": "ਰਿਫ੍ਰੈਸ਼ ਕਰਨ ਲਈ ਹੇਠਾਂ ਖਿੱਚੋ",
+  "loadFailedText": "ਲੋਡ ਅਸਫਲ ਰਿਹਾ",
+  "loadingText": "ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ...",
+  "noMoreText": "ਕੋਈ ਹੋਰ ਡਾਟਾ ਨਹੀਂ",
+  "refreshCompleteText": "ਰਿਫ੍ਰੈਸ਼ ਪੂਰਾ ਹੋਇਆ",
+  "refreshFailedText": "ਰਿਫ੍ਰੈਸ਼ ਅਸਫਲ ਰਿਹਾ",
+  "refreshingText": "ਰਿਫ੍ਰੈਸ਼ ਹੋ ਰਿਹਾ ਹੈ..."
+}

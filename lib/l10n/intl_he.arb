@@ -1,0 +1,14 @@
+{
+  "@@locale": "he",
+  "canLoadingText": "שחרר כדי לטעון עוד",
+  "canRefreshText": "שחרר כדי לרענן",
+  "canTwoLevelText": "שחרר כדי להיכנס לקומה השנייה",
+  "idleLoadingText": "משוך למעלה כדי לטעון עוד",
+  "idleRefreshText": "משוך למטה כדי לרענן",
+  "loadFailedText": "הטעינה נכשלה",
+  "loadingText": "טוען…",
+  "noMoreText": "אין עוד נתונים",
+  "refreshCompleteText": "הרענון הושלם",
+  "refreshFailedText": "הרענון נכשל",
+  "refreshingText": "מרענן…"
+}

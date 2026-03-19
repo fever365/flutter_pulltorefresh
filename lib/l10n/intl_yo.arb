@@ -1,0 +1,14 @@
+{
+  "@@locale": "yo",
+  "canLoadingText": "Tu silẹ lati gbe diẹ sii",
+  "canRefreshText": "Tu silẹ lati sọ di tuntun",
+  "canTwoLevelText": "Tu silẹ lati wọ ilẹ keji",
+  "idleLoadingText": "Fa soke Gbe diẹ sii",
+  "idleRefreshText": "Fa si isalẹ Sọ di tuntun",
+  "loadFailedText": "Ikojọpọ Kuna",
+  "loadingText": "Nkojọpọ…",
+  "noMoreText": "Ko si data mọ",
+  "refreshCompleteText": "Sọ di tuntun ti pari",
+  "refreshFailedText": "Sọ di tuntun kuna",
+  "refreshingText": "Nsọ di tuntun…"
+}

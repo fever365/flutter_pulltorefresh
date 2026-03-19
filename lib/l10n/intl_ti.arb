@@ -1,0 +1,14 @@
+{
+  "@@locale": "ti",
+  "canLoadingText": "ተወሳኺ ንምጽዓን ልቀቑ",
+  "canRefreshText": "ንምሕዳስ ልቀቑ",
+  "canTwoLevelText": "ናብ ካልኣይ ደብሪ ንምእታው ልቀቑ",
+  "idleLoadingText": "ተወሳኺ ንምጽዓን ንላዕሊ ስሓቡ",
+  "idleRefreshText": "ንምሕዳስ ንታሕቲ ስሓቡ",
+  "loadFailedText": "ምጽዓን ፈሺሉ",
+  "loadingText": "ይጽዓን ኣሎ…",
+  "noMoreText": "ተወሳኺ ዳታ የለን",
+  "refreshCompleteText": "ምሕዳስ ተዛዚሙ",
+  "refreshFailedText": "ምሕዳስ ፈሺሉ",
+  "refreshingText": "ይሕደስ ኣሎ…"
+}

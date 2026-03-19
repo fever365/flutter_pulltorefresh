@@ -1,0 +1,14 @@
+{
+  "@@locale": "ru",
+  "canLoadingText": "Отпустите, чтобы загрузить больше",
+  "canRefreshText": "Отпустите, чтобы обновить",
+  "canTwoLevelText": "Отпустите, чтобы войти на второй уровень",
+  "idleLoadingText": "Тянуть вверх, чтобы загрузить больше",
+  "idleRefreshText": "Тянуть вниз, чтобы обновить",
+  "loadFailedText": "Ошибка загрузки",
+  "loadingText": "Загрузка…",
+  "noMoreText": "Больше данных нет",
+  "refreshCompleteText": "Обновление завершено",
+  "refreshFailedText": "Не удалось обновить",
+  "refreshingText": "Обновление…"
+}

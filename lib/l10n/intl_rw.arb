@@ -1,0 +1,14 @@
+{
+  "@@locale": "rw",
+  "canLoadingText": "Rekura kugira ngo ufungure ibindi",
+  "canRefreshText": "Rekura kugira ngo uvugurure",
+  "canTwoLevelText": "Rekura kugira ngo winjire mu igorofa ya kabiri",
+  "idleLoadingText": "Kurura ujyana hejuru kugira ngo ufungure ibindi",
+  "idleRefreshText": "Kurura ujyana hasi kugira ngo uvugurure",
+  "loadFailedText": "Gufungura byanze",
+  "loadingText": "Birafungurwa...",
+  "noMoreText": "Nta yandi makuru ahari",
+  "refreshCompleteText": "Kuvugurura birangiye",
+  "refreshFailedText": "Kuvugurura byanze",
+  "refreshingText": "Biravugururwa..."
+}

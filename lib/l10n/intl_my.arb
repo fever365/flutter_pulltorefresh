@@ -1,0 +1,14 @@
+{
+  "@@locale": "my",
+  "canLoadingText": "ပိုမိုတင်ရန် လွှတ်ပေးပါ",
+  "canRefreshText": "ပြန်လည်စတင်ရန် လွှတ်ပေးပါ",
+  "canTwoLevelText": "ဒုတိယထပ်သို့ ဝင်ရန် လွှတ်ပေးပါ",
+  "idleLoadingText": "ပိုမိုတင်ရန် အပေါ်သို့ ဆွဲပါ",
+  "idleRefreshText": "ပြန်လည်စတင်ရန် အောက်သို့ ဆွဲပါ",
+  "loadFailedText": "တင်ရန် မအောင်မြင်ပါ",
+  "loadingText": "တင်နေသည်...",
+  "noMoreText": "ဒေတာ မရှိတော့ပါ",
+  "refreshCompleteText": "ပြန်လည်စတင်ခြင်း ပြီးစီးပါပြီ",
+  "refreshFailedText": "ပြန်လည်စတင်ခြင်း မအောင်မြင်ပါ",
+  "refreshingText": "ပြန်လည်စတင်နေသည်..."
+}

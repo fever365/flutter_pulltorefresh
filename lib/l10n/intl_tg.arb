@@ -1,0 +1,14 @@
+{
+  "@@locale": "tg",
+  "canLoadingText": "Барои боркунии бештар раҳо кунед",
+  "canRefreshText": "Барои навсозӣ раҳо кунед",
+  "canTwoLevelText": "Барои ворид шудан ба сатҳи дуюм раҳо кунед",
+  "idleLoadingText": "Барои боркунии бештар ба боло кашед",
+  "idleRefreshText": "Барои навсозӣ ба поён кашед",
+  "loadFailedText": "Боркунӣ ноком шуд",
+  "loadingText": "Боргирӣ…",
+  "noMoreText": "Дигар маълумот нест",
+  "refreshCompleteText": "Навсозӣ анҷом ёфт",
+  "refreshFailedText": "Навсозӣ ноком шуд",
+  "refreshingText": "Дар ҳоли навсозӣ…"
+}

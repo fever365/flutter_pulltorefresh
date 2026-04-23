@@ -11,6 +11,8 @@ import 'package:flutter/foundation.dart';
 import 'dart:math' as math;
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 import 'package:pull_to_refresh/src/internals/slivers.dart';
+import 'observer/refresh_observe_model.dart';
+import 'observer/smart_refresh_observer.dart';
 import 'internals/indicator_wrap.dart';
 import 'internals/refresh_physics.dart';
 import 'indicator/classic_indicator.dart';
@@ -429,35 +431,36 @@ class SmartRefresherState extends State<SmartRefresher> {
         dragStartBehavior: dragStartBehavior ?? DragStartBehavior.start,
         reverse: reverse ?? false,
       );
-    } else    body = Scrollable(
-      physics: _getScrollPhysics(
-          conf, childView.physics ?? AlwaysScrollableScrollPhysics()),
-      controller: childView.controller,
-      axisDirection: childView.axisDirection,
-      semanticChildCount: childView.semanticChildCount,
-      dragStartBehavior: childView.dragStartBehavior,
-      viewportBuilder: (context, offset) {
-        Viewport viewport =
-            childView.viewportBuilder(context, offset) as Viewport;
-        if (widget.enablePullDown) {
-          viewport.children.insert(
-              0,
-              widget.header ??
-                  (conf?.headerBuilder != null
-                      ? conf?.headerBuilder!()
-                      : null) ??
-                  defaultHeader);
-        }
-        //insert header or footer
-        if (widget.enablePullUp) {
-          viewport.children.add(widget.footer ??
-              (conf?.footerBuilder != null ? conf?.footerBuilder!() : null) ??
-              defaultFooter);
-        }
-        return viewport;
-      },
-    );
-  
+    } else
+      body = Scrollable(
+        physics: _getScrollPhysics(
+            conf, childView.physics ?? AlwaysScrollableScrollPhysics()),
+        controller: childView.controller,
+        axisDirection: childView.axisDirection,
+        semanticChildCount: childView.semanticChildCount,
+        dragStartBehavior: childView.dragStartBehavior,
+        viewportBuilder: (context, offset) {
+          Viewport viewport =
+              childView.viewportBuilder(context, offset) as Viewport;
+          if (widget.enablePullDown) {
+            viewport.children.insert(
+                0,
+                widget.header ??
+                    (conf?.headerBuilder != null
+                        ? conf?.headerBuilder!()
+                        : null) ??
+                    defaultHeader);
+          }
+          //insert header or footer
+          if (widget.enablePullUp) {
+            viewport.children.add(widget.footer ??
+                (conf?.footerBuilder != null ? conf?.footerBuilder!() : null) ??
+                defaultFooter);
+          }
+          return viewport;
+        },
+      );
+
     return body;
   }
 
@@ -558,6 +561,7 @@ class SmartRefresherState extends State<SmartRefresher> {
     if (configuration == null) {
       body = RefreshConfiguration(child: body!);
     }
+
     return LayoutBuilder(
       builder: (c2, cons) {
         viewportExtent = cons.biggest.height;
@@ -575,12 +579,24 @@ class SmartRefresherState extends State<SmartRefresher> {
 /// * [SmartRefresher],a widget help you attach refresh and load more function easily
 class RefreshController {
   SmartRefresherState? _refresherState;
+  SmartRefreshObserverState? _observer;
 
   /// header status mode controll
   RefreshNotifier<RefreshStatus>? headerMode;
 
   /// footer status mode controll
   RefreshNotifier<LoadStatus>? footerMode;
+
+  /// 缓存最新的观察模型
+  RefreshObserveModel? _observeModel;
+
+  /// 获取当前的观察数据
+  RefreshObserveModel? get observeModel => _observeModel;
+
+  /// 位置保持的相关内部变量
+  int? _pendingItemCountDelta;
+  double? _anchorLeading;
+  int? _anchorIndex;
 
   /// the scrollable inner's position
   ///
@@ -616,6 +632,48 @@ class RefreshController {
         RefreshNotifier(initialRefreshStatus ?? RefreshStatus.idle);
     this.footerMode = RefreshNotifier(initialLoadStatus ?? LoadStatus.idle);
   }
+
+  /// 建立与观察者的绑定
+  void setObserver(SmartRefreshObserverState observer) {
+    _observer = observer;
+  }
+
+  /// 更新观察模型，并处理位置保持逻辑
+  void updateObserveModel(RefreshObserveModel model) {
+    // 检查是否有挂起的位置修正请求
+    if (_pendingItemCountDelta != null && _anchorIndex != null && _anchorLeading != null) {
+       final newAnchorIndex = _anchorIndex! + _pendingItemCountDelta!;
+       final newChild = model.findChildModel(newAnchorIndex);
+       if (newChild != null) {
+          final delta = newChild.leadingMarginToViewport - _anchorLeading!;
+          _observer?.applyPositionAdjustment(delta);
+       }
+       // 修正完毕，清空状态
+       _pendingItemCountDelta = null;
+       _anchorIndex = null;
+       _anchorLeading = null;
+    }
+    _observeModel = model;
+  }
+
+  /// 【核心新功能】保持当前滚动位置不跳动
+  /// 
+  /// 在您向列表顶部插入新数据前（setState 前）调用此方法。
+  /// [itemCountDelta] 为插入的条目数量。
+  void keepPosition({required int itemCountDelta}) {
+    if (_observeModel == null || _observeModel!.displayingChildModelList.isEmpty) {
+      return;
+    }
+    
+    // 选取当前屏幕第一个可见元素作为锚点
+    final firstChild = _observeModel!.displayingChildModelList.first;
+    _anchorIndex = firstChild.index;
+    _anchorLeading = firstChild.leadingMarginToViewport;
+    _pendingItemCountDelta = itemCountDelta;
+  }
+
+  @visibleForTesting
+  int? get pendingItemCountDelta => _pendingItemCountDelta;
 
   void _bindState(SmartRefresherState state) {
     assert(_refresherState == null,

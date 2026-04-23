@@ -612,6 +612,7 @@ mixin IndicatorStateMixin<T extends StatefulWidget, V> on State<T> {
     if (overscrollPast < 0.0) {
       return;
     }
+    // 更新监听器，以便指示器可以监听此值进行局部刷新（如旋转、缩放动画）
     offsetNotifier.value = overscrollPast;
     _dispatchModeByOffset(overscrollPast);
   }

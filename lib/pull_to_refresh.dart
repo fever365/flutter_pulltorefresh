@@ -18,3 +18,5 @@ export 'src/indicator/material_indicator.dart';
 export 'src/indicator/bezier_indicator.dart';
 export 'src/indicator/twolevel_indicator.dart';
 export 'src/internals/refresh_localizations.dart';
+export 'src/observer/refresh_observe_model.dart';
+export 'src/observer/smart_refresh_observer.dart';
